@@ -1,0 +1,10 @@
+CREATE TABLE ANDROID_DATA_STORE(
+  tm timestamp,
+  xlocation real,
+  ylocation real,
+  velocity real
+
+);
+
+
+CREATE PROCEDURE FROM CLASS Insert;

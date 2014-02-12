@@ -1,0 +1,75 @@
+/***
+データの取得と送信クラスの呼び出しを行う
+
+
+ */
+//package CarDataSender;
+
+import CarDataSender.CarDataSend;
+
+public class GetPositionData extends Thread{
+
+    private static final String SERVER_URL = "db1.ertl.jp";
+    private static final String DATABASE = "position_data_store";
+
+    //private static final int port = 5555;
+
+    private String option = "";
+
+    //private String sampledata = "1,android_data_store(tm,xlocation,ylocation,velocity) VALUES ('2013-8-1 12:31:50',35.15507021,136.9667089,0.0);";
+
+
+
+    public GetPositionData(){
+	
+	//selectの値によって何のデータを送るかを選択する。
+	//this.option=option;
+
+    }
+
+    
+    public void run(){
+	
+	/**
+	   データベースからデータを取得し標準出力に表示する
+	   SendQueryの使い方
+	   第一引数に"INSERT"か"SELECT"
+	   第二引数に取得したいデータの列を,で区切って書く。すべての場合は"ALL"でOK
+	   第三引数はselectの場合は""、insertの場合はデータを,区切って書く
+
+	 */
+
+	    
+	CarDataSender.CarDataSend car = new CarDataSender.CarDataSend();
+	if(car.init(SERVER_URL,DATABASE)){
+
+	    //test用。出力がぐちゃっとなるからお勧めしない
+	    //System.out.println("senddata now!");
+	    
+
+	    //取得したデータを送信クラスに送る
+	    String res = car.SendQuery("SELECT","tm,xlocation,ylocation,velocity","");
+	    if(res != null){
+		System.out.println(res);
+	    }
+	    else{
+		System.out.println();
+		
+	    }
+		
+	    car.finish();
+	}else{
+	    System.out.println("database access failed");
+	}
+    }
+    
+}
+    
+
+    //SendServerクラスから終了命令が出た場合に
+    /*public synchronized void finish(){
+
+	finish = true;
+
+	}*/
+

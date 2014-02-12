@@ -1,0 +1,38 @@
+
+import org.voltdb.*;
+import org.voltdb.client.*;
+import java.sql.Timestamp;
+
+
+public class voltStore{
+
+    private static int n=5;
+
+    public voltStore(){
+    }
+
+    protected static void runStore(Timestamp tm,double xloc,double yloc,double vel) throws Exception{
+
+	/*
+	 *Instantiate a client and connect to the database.
+	 */
+
+	System.out.println("before init");
+	org.voltdb.client.Client myApp;
+	myApp=ClientFactory.createClient();
+	myApp.createConnection("localhost");
+	
+	/*
+	 *Store the database.
+	 */
+
+	System.out.println("before Insert");
+	
+	myApp.callProcedure("Insert", tm, xloc, yloc, vel);
+	    
+	System.out.println("after Insert");
+
+
+    }
+}
+

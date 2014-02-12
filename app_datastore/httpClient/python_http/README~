@@ -1,0 +1,6 @@
+htpy.py
+
+httpクライアントbyPython
+
+引数に指定したSQLをwebサーバに送信する。
+htpy.py select * from test_data;

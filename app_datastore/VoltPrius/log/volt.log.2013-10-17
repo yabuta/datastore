@@ -1,0 +1,26 @@
+2013-10-17 00:00:30,000   INFO  [Periodic Work] HOST: Host id of this node is: 1
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: URL of deployment info: deployment.xml
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Database start action is Create.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Listening for native wire protocol clients on port 21212.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Listening for admin wire protocol clients on port 21211.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Local machine HTTP monitoring is disabled.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Json API disabled.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Available JVM arguments: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCondCardMark -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseParNewGC -Xmx1024m -Djava.awt.headless=true -Dsun.net.inetaddr.ttl=300 -Dsun.net.inetaddr.negative.ttl=3600 -Dlog4j.configuration=file:///home/yabuta/voltdb/voltdb/log4j.xml -Djava.library.path=/home/yabuta/voltdb/voltdb
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: JVM class path: :/home/yabuta/voltdb/voltdb/voltdb-3.6.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/guava-12.0.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jsch-0.1.50.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/super-csv-2.1.0.jar:/home/yabuta/voltdb/lib/tomcat-jdbc.jar:/home/yabuta/voltdb/lib/tomcat-juli.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Maximum usable Java heap set to 990 mb.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Cluster has 2 hosts with leader hostname: "db2.ertl.jp". 2 sites per host. K = 0.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: The entire cluster has 1 copy of each of the 4 logical partitions.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Detection of network partitions in the cluster is enabled.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Client authentication is not enabled. Anonymous clients accepted.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: No schedule set for automated snapshots.
+2013-10-17 00:00:30,001   INFO  [Periodic Work] HOST: Using "voltdbroot" for voltdbroot directory.
+2013-10-17 00:00:30,002   INFO  [Periodic Work] HOST: CPU INFO:         4 Cores, 2 Sockets, 4 Hardware Threads
+2013-10-17 00:00:30,002   INFO  [Periodic Work] HOST: CPU DESC:         Intel(R) Xeon(R) CPU           X5272  @ 3.40GHz 6144 KB cache
+2013-10-17 00:00:30,002   INFO  [Periodic Work] HOST: HOST MEMORY (MB): 16048
+2013-10-17 00:00:30,002   INFO  [Periodic Work] HOST: OS PROFILE:       Linux 3.10.13-101.fc18.x86_64 amd64 ja_JP
+2013-10-17 00:00:30,002   INFO  [Periodic Work] HOST: JAVA VERSION:     1.7.0_40
+2013-10-17 00:00:30,002   INFO  [Periodic Work] HOST: JAVA RUNTIME:     OpenJDK Runtime Environment (1.7.0_40-mockbuild_2013_09_19_20_11-b00)
+2013-10-17 00:00:30,002   INFO  [Periodic Work] HOST: JAVA VM:          OpenJDK 64-Bit Server VM (24.0-b56, mixed mode)
+2013-10-17 00:00:30,008   INFO  [Periodic Work] HOST: About to list cluster interfaces for all nodes with format [ip1 ip2 ... ipN] client-port:admin-port:http-port
+2013-10-17 00:00:30,008   INFO  [Periodic Work] HOST:   Host id: 0 with interfaces: 133.6.204.152 21212,21211,-1 [PEER]
+2013-10-17 00:00:30,008   INFO  [Periodic Work] HOST:   Host id: 1 with interfaces: 133.6.204.151 21212,21211,-1 [SELF]

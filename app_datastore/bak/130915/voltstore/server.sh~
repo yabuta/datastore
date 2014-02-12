@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -classpath $HOME/voltstore:$HOME/voltstore/postgresql-9.2-1002.jdbc4.jar ServerMain

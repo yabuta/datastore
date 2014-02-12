@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -classpath $HOME/app_datastore/postore:$HOME/app_datastore/postore/postgresql-9.2-1002.jdbc4.jar ServerMain

@@ -1,0 +1,381 @@
+2013-11-01 12:03:32,201   INFO  [main] COMPILER: [ANDROID_DATA_STORE.insert]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE VALUES (?, ?, ?, ?);
+2013-11-01 12:03:32,255   INFO  [main] COMPILER: [PRIUS_DATA_STORE.insert]: Compiling Statement: INSERT INTO PRIUS_DATA_STORE VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+2013-11-01 12:03:32,288   INFO  [main] COMPILER: [Insert.class]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE(tm,xlocation,ylocation,velocity) VALUES(?,?,?,?);
+2013-11-01 12:03:32,293   INFO  [main] COMPILER: [insertPrius.class]: Compiling Statement: INSERT INTO PRIUS_DATA_STORE(tm,devmode,drvcontmode,drvoverridemode,drvservo,drivepedal,targetpedalstr,inputpedalstr,targetveloc,speed,driveshift,targetshift,inputshift,strmode,strcontmode,stroverridemode,strservo,targettorque,torque,angle,targetangle,bbrakepress,brakepedal,brtargetpedalstr,brinputpedalstr,battery,voltage,anp,battmaxtemparature,battmintemparature,maxchgcurrent,maxdischgcurrent,sideacc,accellfromp,anglefromp,brakepedalfromp,speedfr,speedfl,speedrr,speedrl,velocfromp2,drvmode,devpedalstrfromp,rpm,velocflfromp,ev_mode,temp,shiftfrmprius,light,gaslevel,door,cluise) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+2013-11-01 03:04:00,378   FATAL [main] HOST: The hostname is missing.
+2013-11-01 03:04:00,378   INFO  [main] HOST: Usage: voltdb create  catalog <catalog.jar> [host <hostname>] [deployment <deployment.xml>]
+       voltdb recover [host <hostname>] [deployment <deployment.xml>]
+       voltdb rejoin host <hostname>
+       voltdb collect [<option> ...] <path-to-voltdbroot> (run voltdb collect -h for more details)
+       voltdb compile [<option> ...] [<ddl-file> ...]  (run voltdb compile -h for more details)
+
+2013-11-01 03:04:28,831   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-11-01 03:04:28,837   INFO  [main] CONSOLE: Build: 4.0 This is not from a known repository Community Edition
+2013-11-01 03:04:28,847   INFO  [main] NETWORK: Default network thread count: 2
+2013-11-01 03:04:28,878   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-11-01 03:04:28,878   INFO  [main] HOST: Attempting to bind to leader ip db2.ertl.jp/133.6.204.152:3021
+2013-11-01 03:04:28,881   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2013-11-01 03:04:28,884   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:29,134   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:29,385   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:29,635   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:29,886   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:30,136   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:30,387   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:30,637   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:30,888   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:31,138   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:31,389   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:31,639   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:31,889   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:32,140   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:32,390   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:32,641   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:32,891   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:33,142   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:33,392   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:33,643   WARN  [main] org.voltcore.messaging.SocketJoiner: Joining primary failed: 接続を拒否されました retrying..
+2013-11-01 03:04:48,469   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-11-01 03:04:48,475   INFO  [main] CONSOLE: Build: 4.0 This is not from a known repository Community Edition
+2013-11-01 03:04:48,484   INFO  [main] NETWORK: Default network thread count: 2
+2013-11-01 03:04:48,516   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-11-01 03:04:48,516   INFO  [main] HOST: Attempting to bind to leader ip db2.ertl.jp/133.6.204.152:3021
+2013-11-01 03:04:48,519   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2013-11-01 03:04:48,541   INFO  [main] HOST: Leader provided address 133.6.204.152
+2013-11-01 03:04:48,548   FATAL [main] HOST: Clock skew is 1094 which is > than the 100 millisecond limit. Make sure NTP is running.
+2013-11-01 05:03:08,101   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-11-01 05:03:08,107   INFO  [main] CONSOLE: Build: 4.0 This is not from a known repository Community Edition
+2013-11-01 05:03:08,116   INFO  [main] NETWORK: Default network thread count: 2
+2013-11-01 05:03:08,148   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-11-01 05:03:08,148   INFO  [main] HOST: Attempting to bind to leader ip db2.ertl.jp/133.6.204.152:3021
+2013-11-01 05:03:08,151   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2013-11-01 05:03:08,168   INFO  [main] HOST: Leader provided address 133.6.204.152
+2013-11-01 05:03:08,175   FATAL [main] HOST: Clock skew is 1301 which is > than the 100 millisecond limit. Make sure NTP is running.
+2013-11-01 05:03:45,999   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-11-01 05:03:46,005   INFO  [main] CONSOLE: Build: 4.0 This is not from a known repository Community Edition
+2013-11-01 05:03:46,014   INFO  [main] NETWORK: Default network thread count: 2
+2013-11-01 05:03:46,046   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-11-01 05:03:46,046   INFO  [main] HOST: Attempting to bind to leader ip db2.ertl.jp/133.6.204.152:3021
+2013-11-01 05:03:46,049   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2013-11-01 05:03:46,071   INFO  [main] HOST: Leader provided address 133.6.204.152
+2013-11-01 05:03:46,078   FATAL [main] HOST: Clock skew is 1302 which is > than the 100 millisecond limit. Make sure NTP is running.
+2013-11-01 05:04:09,536   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-11-01 05:04:09,543   INFO  [main] CONSOLE: Build: 4.0 This is not from a known repository Community Edition
+2013-11-01 05:04:09,552   INFO  [main] NETWORK: Default network thread count: 2
+2013-11-01 05:04:09,583   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-11-01 05:04:09,584   INFO  [main] HOST: Attempting to bind to leader ip db2.ertl.jp/133.6.204.152:3021
+2013-11-01 05:04:09,587   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2013-11-01 05:04:09,604   INFO  [main] HOST: Leader provided address 133.6.204.152
+2013-11-01 05:04:09,612   FATAL [main] HOST: Clock skew is 1303 which is > than the 100 millisecond limit. Make sure NTP is running.
+2013-11-01 05:06:34,084   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-11-01 05:06:34,090   INFO  [main] CONSOLE: Build: 4.0 This is not from a known repository Community Edition
+2013-11-01 05:06:34,100   INFO  [main] NETWORK: Default network thread count: 2
+2013-11-01 05:06:34,131   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-11-01 05:06:34,131   INFO  [main] HOST: Attempting to bind to leader ip db2.ertl.jp/133.6.204.152:3021
+2013-11-01 05:06:34,134   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2013-11-01 05:06:34,157   INFO  [main] HOST: Leader provided address 133.6.204.152
+2013-11-01 05:06:34,164   FATAL [main] HOST: Clock skew is 1307 which is > than the 100 millisecond limit. Make sure NTP is running.
+2013-11-01 05:10:27,580   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-11-01 05:10:27,586   INFO  [main] CONSOLE: Build: 4.0 This is not from a known repository Community Edition
+2013-11-01 05:10:27,596   INFO  [main] NETWORK: Default network thread count: 2
+2013-11-01 05:10:27,627   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-11-01 05:10:27,627   INFO  [main] HOST: Attempting to bind to leader ip db2.ertl.jp/133.6.204.152:3021
+2013-11-01 05:10:27,630   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2013-11-01 05:10:27,658   INFO  [main] HOST: Leader provided address 133.6.204.152
+2013-11-01 05:10:27,658   INFO  [main] HOST: Clock skew to across all nodes in the cluster is 9
+2013-11-01 05:10:27,658   INFO  [main] NETWORK: 1 notified of host 0
+2013-11-01 05:10:27,702   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2288
+2013-11-01 05:10:27,712   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-11-01 05:10:27,857   INFO  [ZooKeeperServer] AGREEMENT: Loaded ZK snapshot
+2013-11-01 05:10:27,862   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2288 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@3b116dc4
+2013-11-01 05:10:27,867   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2288
+2013-11-01 05:10:27,868   INFO  [main-SendThread(localhost.localdomain:2288)] ZK-CLIENT: Socket connection established to /127.0.0.1:2288, initiating session
+2013-11-01 05:10:27,868   INFO  [NIOServerCxn.Factory:/127.0.0.1:2288] ZK-SERVER: Accepted socket connection from /127.0.0.1:47534
+2013-11-01 05:10:27,870   INFO  [NIOServerCxn.Factory:/127.0.0.1:2288] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:47534
+2013-11-01 05:10:27,888   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x156fb6088f020001 with negotiated timeout 6000 for client /127.0.0.1:47534
+2013-11-01 05:10:27,888   INFO  [main-SendThread(localhost.localdomain:2288)] ZK-CLIENT: Session establishment complete on server /127.0.0.1:2288, sessionid = 0x156fb6088f020001, negotiated timeout = 6000
+2013-11-01 05:10:27,912   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-11-01 05:10:27,925   INFO  [main] HOST: Host id of this node is: 1
+2013-11-01 05:10:27,925   INFO  [main] CONSOLE: Host id of this node is: 1
+2013-11-01 05:10:27,967   INFO  [main] HOST: Deployment configuration pulled from ZK
+2013-11-01 05:10:28,189   INFO  [main] HOST: Dead host timeout set to 90000 milliseconds
+2013-11-01 05:10:29,470   INFO  [main] EXPORT: System is not using any export functionality.
+2013-11-01 05:10:29,523   INFO  [Iv2ExecutionSite: 1:0] HOST: Loading native VoltDB code (voltdb-4.0). A confirmation message will follow if the loading is successful.
+2013-11-01 05:10:29,529   INFO  [Iv2ExecutionSite: 1:0] HOST: Successfully loaded native VoltDB library voltdb-4.0.
+2013-11-01 05:10:29,636   INFO  [main] TM: Setting maximum size of MPI read pool to: 20
+2013-11-01 05:10:29,701   INFO  [LeaderCache] TM: SP 1:0 for partition 1 found (including self) 1 surviving replicas to repair.  Survivors: 1:0
+2013-11-01 05:10:29,711   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 05:10:29,716   INFO  [LeaderCache] TM: SP 1:0 for partition 1 finished leader promotion. Took 52 ms.
+2013-11-01 05:10:29,735   INFO  [LeaderCache] TM: SP 1:1 for partition 3 found (including self) 1 surviving replicas to repair.  Survivors: 1:1
+2013-11-01 05:10:29,735   INFO  [LeaderCache] TM: SP 1:1 for partition 3 finished leader promotion. Took 25 ms.
+2013-11-01 05:10:29,769   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 05:10:29,829   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 05:10:29,829   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 05:10:29,867   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 05:10:29,928   INFO  [main] HOST: Database start action is Create.
+2013-11-01 05:10:29,959   INFO  [main] HOST: PID of this Volt process is 32606
+2013-11-01 05:10:29,959   INFO  [main] HOST: Listening for native wire protocol clients on port 21212.
+2013-11-01 05:10:29,959   INFO  [main] HOST: Listening for admin wire protocol clients on port 21211.
+2013-11-01 05:10:29,960   INFO  [main] HOST: Local machine HTTP monitoring is disabled.
+2013-11-01 05:10:29,960   INFO  [main] HOST: Json API disabled.
+2013-11-01 05:10:29,960   INFO  [main] HOST: Available JVM arguments: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCondCardMark -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseParNewGC -Xmx1024m -Djava.awt.headless=true -Dsun.net.inetaddr.ttl=300 -Dsun.net.inetaddr.negative.ttl=3600 -Dlog4j.configuration=file:///home/yabuta/voltdb/voltdb/log4j.xml -Djava.library.path=/home/yabuta/voltdb/voltdb
+2013-11-01 05:10:29,960   INFO  [main] HOST: JVM class path: :/home/yabuta/voltdb/voltdb/voltdb-4.0.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/guava-15.0.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jsch-0.1.50.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/super-csv-2.1.0.jar:/home/yabuta/voltdb/lib/tomcat-jdbc.jar:/home/yabuta/voltdb/lib/tomcat-juli.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar
+2013-11-01 05:10:29,960   INFO  [main] HOST: Maximum usable Java heap set to 990 mb.
+2013-11-01 05:10:29,960   INFO  [main] HOST: Cluster has 2 hosts with leader hostname: "db2.ertl.jp". 2 sites per host. K = 0.
+2013-11-01 05:10:29,960   INFO  [main] HOST: The entire cluster has 1 copy of each of the 4 logical partitions.
+2013-11-01 05:10:29,960   INFO  [main] HOST: Detection of network partitions in the cluster is enabled.
+2013-11-01 05:10:29,960   INFO  [main] HOST: Client authentication is not enabled. Anonymous clients accepted.
+2013-11-01 05:10:29,960   INFO  [main] HOST: No schedule set for automated snapshots.
+2013-11-01 05:10:29,961   INFO  [main] HOST: Using "voltdbroot" for voltdbroot directory.
+2013-11-01 05:10:29,961   INFO  [main] HOST: CPU INFO:         4 Cores, 2 Sockets, 4 Hardware Threads
+2013-11-01 05:10:29,961   INFO  [main] HOST: CPU DESC:         Intel(R) Xeon(R) CPU           X5272  @ 3.40GHz 6144 KB cache
+2013-11-01 05:10:29,961   INFO  [main] HOST: HOST MEMORY (MB): 16048
+2013-11-01 05:10:29,961   INFO  [main] HOST: OS PROFILE:       Linux 3.10.13-101.fc18.x86_64 amd64 ja_JP
+2013-11-01 05:10:29,961   INFO  [main] HOST: JAVA VERSION:     1.7.0_40
+2013-11-01 05:10:29,961   INFO  [main] HOST: JAVA RUNTIME:     OpenJDK Runtime Environment (1.7.0_40-mockbuild_2013_09_19_20_11-b00)
+2013-11-01 05:10:29,961   INFO  [main] HOST: JAVA VM:          OpenJDK 64-Bit Server VM (24.0-b56, mixed mode)
+2013-11-01 05:10:29,989   INFO  [main] HOST: About to list cluster interfaces for all nodes with format [ip1 ip2 ... ipN] client-port:admin-port:http-port
+2013-11-01 05:10:29,989   INFO  [main] HOST:   Host id: 0 with interfaces: 133.6.204.152 21212,21211,-1 [PEER]
+2013-11-01 05:10:29,989   INFO  [main] HOST:   Host id: 1 with interfaces: 133.6.204.151 21212,21211,-1 [SELF]
+2013-11-01 05:10:29,989   WARN  [main] CONSOLE: This is not a highly available cluster. K-Safety is set to 0.
+2013-11-01 05:10:29,989   WARN  [main] CONSOLE: Durability is turned off. Command logging is off.
+2013-11-01 05:10:30,024   WARN  [main] HOST: Cannot load org.voltdb.join.ElasticJoinCoordinator in VoltDB community edition. Elastic will be disabled.
+2013-11-01 05:10:30,027   INFO  [Thread-7] HOST: Logging config info
+2013-11-01 05:10:30,102   INFO  [Thread-8] CONSOLE: Server completed initialization.
+2013-11-01 05:39:06,966   INFO  [ZooKeeperServer] ZK-SERVER: Processed session termination for sessionid: 0x156fb6088f020001
+2013-11-01 05:39:06,968   WARN  [NIOServerCxn.Factory:/127.0.0.1:2288] ZK-SERVER: EndOfStreamException: Unable to read additional data from client sessionid 0x156fb6088f020001, likely client has closed socket
+2013-11-01 09:39:45,262   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-11-01 09:39:45,268   INFO  [main] CONSOLE: Build: 4.0 This is not from a known repository Community Edition
+2013-11-01 09:39:45,276   INFO  [main] NETWORK: Default network thread count: 2
+2013-11-01 09:39:45,305   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-11-01 09:39:45,305   INFO  [main] HOST: Attempting to bind to leader ip db2.ertl.jp/133.6.204.152:3021
+2013-11-01 09:39:45,308   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2013-11-01 09:39:45,331   INFO  [main] HOST: Leader provided address 133.6.204.152
+2013-11-01 09:39:45,331   WARN  [main] HOST: Clock skew is 15 which is high. Ideally it should be sub-millisecond. Make sure NTP is running.
+2013-11-01 09:39:45,331   WARN  [main] CONSOLE: Clock skew is 15 which is high. Ideally it should be sub-millisecond. Make sure NTP is running.
+2013-11-01 09:39:45,332   INFO  [main] NETWORK: 1 notified of host 0
+2013-11-01 09:39:45,371   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2288
+2013-11-01 09:39:45,381   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-11-01 09:39:45,497   INFO  [ZooKeeperServer] AGREEMENT: Loaded ZK snapshot
+2013-11-01 09:39:45,501   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2288 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@7e5ef8e8
+2013-11-01 09:39:45,506   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2288
+2013-11-01 09:39:45,507   INFO  [main-SendThread(localhost.localdomain:2288)] ZK-CLIENT: Socket connection established to /127.0.0.1:2288, initiating session
+2013-11-01 09:39:45,507   INFO  [NIOServerCxn.Factory:/127.0.0.1:2288] ZK-SERVER: Accepted socket connection from /127.0.0.1:47540
+2013-11-01 09:39:45,509   INFO  [NIOServerCxn.Factory:/127.0.0.1:2288] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:47540
+2013-11-01 09:39:45,521   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x1570314e73000001 with negotiated timeout 6000 for client /127.0.0.1:47540
+2013-11-01 09:39:45,521   INFO  [main-SendThread(localhost.localdomain:2288)] ZK-CLIENT: Session establishment complete on server /127.0.0.1:2288, sessionid = 0x1570314e73000001, negotiated timeout = 6000
+2013-11-01 09:39:45,538   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-11-01 09:39:45,544   INFO  [main] HOST: Host id of this node is: 1
+2013-11-01 09:39:45,545   INFO  [main] CONSOLE: Host id of this node is: 1
+2013-11-01 09:39:45,568   INFO  [main] HOST: Deployment configuration pulled from ZK
+2013-11-01 09:39:45,791   INFO  [main] HOST: Dead host timeout set to 90000 milliseconds
+2013-11-01 09:39:46,839   INFO  [main] EXPORT: System is not using any export functionality.
+2013-11-01 09:39:46,890   INFO  [Iv2ExecutionSite: 1:0] HOST: Loading native VoltDB code (voltdb-4.0). A confirmation message will follow if the loading is successful.
+2013-11-01 09:39:46,897   INFO  [Iv2ExecutionSite: 1:0] HOST: Successfully loaded native VoltDB library voltdb-4.0.
+2013-11-01 09:39:46,954   INFO  [main] TM: Setting maximum size of MPI read pool to: 20
+2013-11-01 09:39:47,007   INFO  [Leader elector-/db/leaders/globalservice] HOST: Host 1 promoted to be the global service provider
+2013-11-01 09:39:47,048   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:0 as leader for partition 0
+2013-11-01 09:39:47,065   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 1:0 as leader for partition 1
+2013-11-01 09:39:47,088   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:1 as leader for partition 2
+2013-11-01 09:39:47,098   INFO  [LeaderCache] TM: SP 1:0 for partition 1 found (including self) 1 surviving replicas to repair.  Survivors: 1:0
+2013-11-01 09:39:47,111   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 1:1 as leader for partition 3
+2013-11-01 09:39:47,112   INFO  [LeaderCache] TM: SP 1:0 for partition 1 finished leader promotion. Took 25 ms.
+2013-11-01 09:39:47,125   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 09:39:47,131   INFO  [LeaderCache] TM: SP 1:1 for partition 3 found (including self) 1 surviving replicas to repair.  Survivors: 1:1
+2013-11-01 09:39:47,131   INFO  [LeaderCache] TM: SP 1:1 for partition 3 finished leader promotion. Took 14 ms.
+2013-11-01 09:39:47,158   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 09:39:47,196   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 09:39:47,247   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 09:39:47,292   INFO  [LeaderCache] TM: MP 1:2 for partition 16383 found 4 surviving leaders to repair.  Survivors: 0:0, 0:1, 1:0, 1:1
+2013-11-01 09:39:47,294   INFO  [LeaderCache] TM: MP 1:2 for partition 16383 finished leader promotion. Took 41 ms.
+2013-11-01 09:39:47,331   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 09:39:47,371   INFO  [main] HOST: Database start action is Create.
+2013-11-01 09:39:47,402   INFO  [main] HOST: PID of this Volt process is 3410
+2013-11-01 09:39:47,402   INFO  [main] HOST: Listening for native wire protocol clients on port 21212.
+2013-11-01 09:39:47,402   INFO  [main] HOST: Listening for admin wire protocol clients on port 21211.
+2013-11-01 09:39:47,402   INFO  [main] HOST: Local machine HTTP monitoring is disabled.
+2013-11-01 09:39:47,402   INFO  [main] HOST: Json API disabled.
+2013-11-01 09:39:47,402   INFO  [main] HOST: Available JVM arguments: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCondCardMark -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseParNewGC -Xmx1024m -Djava.awt.headless=true -Dsun.net.inetaddr.ttl=300 -Dsun.net.inetaddr.negative.ttl=3600 -Dlog4j.configuration=file:///home/yabuta/voltdb/voltdb/log4j.xml -Djava.library.path=/home/yabuta/voltdb/voltdb
+2013-11-01 09:39:47,402   INFO  [main] HOST: JVM class path: /home/yabuta/app_datastore/VoltPrius/datastore.jar:/home/yabuta/voltdb/voltdb/voltdb-4.0.jar:/home/yabuta/voltdb/voltdb/voltdbclient-4.0.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/guava-15.0.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/tomcat-jdbc.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jsch-0.1.50.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/tomcat-juli.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/super-csv-2.1.0.jar:/home/yabuta/voltdb/voltdb/voltdb-4.0.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/guava-15.0.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jsch-0.1.50.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/super-csv-2.1.0.jar:/home/yabuta/voltdb/lib/tomcat-jdbc.jar:/home/yabuta/voltdb/lib/tomcat-juli.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar
+2013-11-01 09:39:47,403   INFO  [main] HOST: Maximum usable Java heap set to 990 mb.
+2013-11-01 09:39:47,403   INFO  [main] HOST: Cluster has 2 hosts with leader hostname: "db2.ertl.jp". 2 sites per host. K = 0.
+2013-11-01 09:39:47,403   INFO  [main] HOST: The entire cluster has 1 copy of each of the 4 logical partitions.
+2013-11-01 09:39:47,403   INFO  [main] HOST: Detection of network partitions in the cluster is enabled.
+2013-11-01 09:39:47,403   INFO  [main] HOST: Client authentication is not enabled. Anonymous clients accepted.
+2013-11-01 09:39:47,403   INFO  [main] HOST: No schedule set for automated snapshots.
+2013-11-01 09:39:47,403   INFO  [main] HOST: Using "voltdbroot" for voltdbroot directory.
+2013-11-01 09:39:47,404   INFO  [main] HOST: CPU INFO:         4 Cores, 2 Sockets, 4 Hardware Threads
+2013-11-01 09:39:47,404   INFO  [main] HOST: CPU DESC:         Intel(R) Xeon(R) CPU           X5272  @ 3.40GHz 6144 KB cache
+2013-11-01 09:39:47,404   INFO  [main] HOST: HOST MEMORY (MB): 16048
+2013-11-01 09:39:47,404   INFO  [main] HOST: OS PROFILE:       Linux 3.10.13-101.fc18.x86_64 amd64 ja_JP
+2013-11-01 09:39:47,404   INFO  [main] HOST: JAVA VERSION:     1.7.0_40
+2013-11-01 09:39:47,404   INFO  [main] HOST: JAVA RUNTIME:     OpenJDK Runtime Environment (1.7.0_40-mockbuild_2013_09_19_20_11-b00)
+2013-11-01 09:39:47,404   INFO  [main] HOST: JAVA VM:          OpenJDK 64-Bit Server VM (24.0-b56, mixed mode)
+2013-11-01 09:39:47,449   INFO  [main] HOST: About to list cluster interfaces for all nodes with format [ip1 ip2 ... ipN] client-port:admin-port:http-port
+2013-11-01 09:39:47,449   INFO  [main] HOST:   Host id: 0 with interfaces: 133.6.204.152 21212,21211,-1 [PEER]
+2013-11-01 09:39:47,449   INFO  [main] HOST:   Host id: 1 with interfaces: 133.6.204.151 21212,21211,-1 [SELF]
+2013-11-01 09:39:47,450   WARN  [main] CONSOLE: This is not a highly available cluster. K-Safety is set to 0.
+2013-11-01 09:39:47,450   WARN  [main] CONSOLE: Durability is turned off. Command logging is off.
+2013-11-01 09:39:47,462   WARN  [main] HOST: Cannot load org.voltdb.join.ElasticJoinCoordinator in VoltDB community edition. Elastic will be disabled.
+2013-11-01 09:39:47,464   INFO  [SnapshotDaemon] LOGGING: This node was selected as the leader for snapshot truncation
+2013-11-01 09:39:47,465   INFO  [Thread-7] HOST: Logging config info
+2013-11-01 09:39:47,466   INFO  [SnapshotDaemon] LOGGING: Checking for existence of snapshot truncation request
+2013-11-01 09:39:47,710   INFO  [Thread-8] CONSOLE: Server completed initialization.
+2013-11-01 09:40:25,481   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-11-01 09:40:25,487   INFO  [main] CONSOLE: Build: 4.0 This is not from a known repository Community Edition
+2013-11-01 09:40:25,495   INFO  [main] NETWORK: Default network thread count: 2
+2013-11-01 09:40:25,524   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-11-01 09:40:25,524   INFO  [main] HOST: Attempting to bind to leader ip db2.ertl.jp/133.6.204.152:3021
+2013-11-01 09:40:25,527   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2013-11-01 09:40:25,554   INFO  [main] HOST: Leader provided address 133.6.204.152
+2013-11-01 09:40:25,554   WARN  [main] HOST: Clock skew is 15 which is high. Ideally it should be sub-millisecond. Make sure NTP is running.
+2013-11-01 09:40:25,554   WARN  [main] CONSOLE: Clock skew is 15 which is high. Ideally it should be sub-millisecond. Make sure NTP is running.
+2013-11-01 09:40:25,555   INFO  [main] NETWORK: 1 notified of host 0
+2013-11-01 09:40:25,595   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2288
+2013-11-01 09:40:25,604   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-11-01 09:40:25,699   INFO  [ZooKeeperServer] AGREEMENT: Loaded ZK snapshot
+2013-11-01 09:40:25,703   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2288 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@d278829
+2013-11-01 09:40:25,708   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2288
+2013-11-01 09:40:25,709   INFO  [main-SendThread(localhost.localdomain:2288)] ZK-CLIENT: Socket connection established to /127.0.0.1:2288, initiating session
+2013-11-01 09:40:25,710   INFO  [NIOServerCxn.Factory:/127.0.0.1:2288] ZK-SERVER: Accepted socket connection from /127.0.0.1:47542
+2013-11-01 09:40:25,711   INFO  [NIOServerCxn.Factory:/127.0.0.1:2288] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:47542
+2013-11-01 09:40:25,728   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x1570319cf8000001 with negotiated timeout 6000 for client /127.0.0.1:47542
+2013-11-01 09:40:25,728   INFO  [main-SendThread(localhost.localdomain:2288)] ZK-CLIENT: Session establishment complete on server /127.0.0.1:2288, sessionid = 0x1570319cf8000001, negotiated timeout = 6000
+2013-11-01 09:40:25,745   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-11-01 09:40:25,751   INFO  [main] HOST: Host id of this node is: 1
+2013-11-01 09:40:25,751   INFO  [main] CONSOLE: Host id of this node is: 1
+2013-11-01 09:40:25,774   INFO  [main] HOST: Deployment configuration pulled from ZK
+2013-11-01 09:40:25,997   INFO  [main] HOST: Dead host timeout set to 90000 milliseconds
+2013-11-01 09:40:27,032   INFO  [main] EXPORT: System is not using any export functionality.
+2013-11-01 09:40:27,082   INFO  [Iv2ExecutionSite: 1:0] HOST: Loading native VoltDB code (voltdb-4.0). A confirmation message will follow if the loading is successful.
+2013-11-01 09:40:27,089   INFO  [Iv2ExecutionSite: 1:0] HOST: Successfully loaded native VoltDB library voltdb-4.0.
+2013-11-01 09:40:27,140   INFO  [main] TM: Setting maximum size of MPI read pool to: 20
+2013-11-01 09:40:27,202   INFO  [Leader elector-/db/leaders/globalservice] HOST: Host 1 promoted to be the global service provider
+2013-11-01 09:40:27,243   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:0 as leader for partition 0
+2013-11-01 09:40:27,263   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 1:0 as leader for partition 1
+2013-11-01 09:40:27,281   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:1 as leader for partition 2
+2013-11-01 09:40:27,285   INFO  [LeaderCache] TM: SP 1:0 for partition 1 found (including self) 1 surviving replicas to repair.  Survivors: 1:0
+2013-11-01 09:40:27,298   INFO  [LeaderCache] TM: SP 1:0 for partition 1 finished leader promotion. Took 25 ms.
+2013-11-01 09:40:27,306   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 1:1 as leader for partition 3
+2013-11-01 09:40:27,316   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 09:40:27,340   INFO  [LeaderCache] TM: SP 1:1 for partition 3 found (including self) 1 surviving replicas to repair.  Survivors: 1:1
+2013-11-01 09:40:27,340   INFO  [LeaderCache] TM: SP 1:1 for partition 3 finished leader promotion. Took 12 ms.
+2013-11-01 09:40:27,359   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 09:40:27,432   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 09:40:27,469   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 09:40:27,484   INFO  [LeaderCache] TM: MP 1:2 for partition 16383 found 4 surviving leaders to repair.  Survivors: 0:0, 0:1, 1:0, 1:1
+2013-11-01 09:40:27,487   INFO  [LeaderCache] TM: MP 1:2 for partition 16383 finished leader promotion. Took 29 ms.
+2013-11-01 09:40:27,505   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-11-01 09:40:27,561   INFO  [main] HOST: Database start action is Create.
+2013-11-01 09:40:27,591   INFO  [main] HOST: PID of this Volt process is 3519
+2013-11-01 09:40:27,591   INFO  [main] HOST: Listening for native wire protocol clients on port 21212.
+2013-11-01 09:40:27,592   INFO  [main] HOST: Listening for admin wire protocol clients on port 21211.
+2013-11-01 09:40:27,592   INFO  [main] HOST: Local machine HTTP monitoring is disabled.
+2013-11-01 09:40:27,592   INFO  [main] HOST: Json API disabled.
+2013-11-01 09:40:27,592   INFO  [main] HOST: Available JVM arguments: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCondCardMark -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseParNewGC -Xmx1024m -Djava.awt.headless=true -Dsun.net.inetaddr.ttl=300 -Dsun.net.inetaddr.negative.ttl=3600 -Dlog4j.configuration=file:///home/yabuta/voltdb/voltdb/log4j.xml -Djava.library.path=/home/yabuta/voltdb/voltdb
+2013-11-01 09:40:27,592   INFO  [main] HOST: JVM class path: /home/yabuta/app_datastore/VoltPrius/datastore.jar:/home/yabuta/voltdb/voltdb/voltdb-4.0.jar:/home/yabuta/voltdb/voltdb/voltdbclient-4.0.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/guava-15.0.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/tomcat-jdbc.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jsch-0.1.50.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/tomcat-juli.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/super-csv-2.1.0.jar:/home/yabuta/voltdb/voltdb/voltdb-4.0.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/guava-15.0.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jsch-0.1.50.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/super-csv-2.1.0.jar:/home/yabuta/voltdb/lib/tomcat-jdbc.jar:/home/yabuta/voltdb/lib/tomcat-juli.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar
+2013-11-01 09:40:27,592   INFO  [main] HOST: Maximum usable Java heap set to 990 mb.
+2013-11-01 09:40:27,592   INFO  [main] HOST: Cluster has 2 hosts with leader hostname: "db2.ertl.jp". 2 sites per host. K = 0.
+2013-11-01 09:40:27,593   INFO  [main] HOST: The entire cluster has 1 copy of each of the 4 logical partitions.
+2013-11-01 09:40:27,593   INFO  [main] HOST: Detection of network partitions in the cluster is enabled.
+2013-11-01 09:40:27,593   INFO  [main] HOST: Client authentication is not enabled. Anonymous clients accepted.
+2013-11-01 09:40:27,593   INFO  [main] HOST: No schedule set for automated snapshots.
+2013-11-01 09:40:27,593   INFO  [main] HOST: Using "voltdbroot" for voltdbroot directory.
+2013-11-01 09:40:27,593   INFO  [main] HOST: CPU INFO:         4 Cores, 2 Sockets, 4 Hardware Threads
+2013-11-01 09:40:27,593   INFO  [main] HOST: CPU DESC:         Intel(R) Xeon(R) CPU           X5272  @ 3.40GHz 6144 KB cache
+2013-11-01 09:40:27,593   INFO  [main] HOST: HOST MEMORY (MB): 16048
+2013-11-01 09:40:27,593   INFO  [main] HOST: OS PROFILE:       Linux 3.10.13-101.fc18.x86_64 amd64 ja_JP
+2013-11-01 09:40:27,593   INFO  [main] HOST: JAVA VERSION:     1.7.0_40
+2013-11-01 09:40:27,593   INFO  [main] HOST: JAVA RUNTIME:     OpenJDK Runtime Environment (1.7.0_40-mockbuild_2013_09_19_20_11-b00)
+2013-11-01 09:40:27,593   INFO  [main] HOST: JAVA VM:          OpenJDK 64-Bit Server VM (24.0-b56, mixed mode)
+2013-11-01 09:40:27,645   INFO  [main] HOST: About to list cluster interfaces for all nodes with format [ip1 ip2 ... ipN] client-port:admin-port:http-port
+2013-11-01 09:40:27,645   INFO  [main] HOST:   Host id: 0 with interfaces: 133.6.204.152 21212,21211,-1 [PEER]
+2013-11-01 09:40:27,645   INFO  [main] HOST:   Host id: 1 with interfaces: 133.6.204.151 21212,21211,-1 [SELF]
+2013-11-01 09:40:27,645   WARN  [main] CONSOLE: This is not a highly available cluster. K-Safety is set to 0.
+2013-11-01 09:40:27,646   WARN  [main] CONSOLE: Durability is turned off. Command logging is off.
+2013-11-01 09:40:27,659   WARN  [main] HOST: Cannot load org.voltdb.join.ElasticJoinCoordinator in VoltDB community edition. Elastic will be disabled.
+2013-11-01 09:40:27,661   INFO  [SnapshotDaemon] LOGGING: This node was selected as the leader for snapshot truncation
+2013-11-01 09:40:27,662   INFO  [Thread-7] HOST: Logging config info
+2013-11-01 09:40:27,663   INFO  [SnapshotDaemon] LOGGING: Checking for existence of snapshot truncation request
+2013-11-01 09:40:27,907   INFO  [Thread-8] CONSOLE: Server completed initialization.

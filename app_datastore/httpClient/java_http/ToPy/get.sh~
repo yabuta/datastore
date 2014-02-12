@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java_http]$ java -classpath ./:./lib/* jaClient

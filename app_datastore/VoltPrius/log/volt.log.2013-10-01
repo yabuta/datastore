@@ -1,0 +1,273 @@
+2013-10-01 17:21:13,055   INFO  [main] COMPILER: [ANDROID_DATA_STORE.insert]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE VALUES (?, ?, ?, ?);
+2013-10-01 17:21:13,144   INFO  [main] COMPILER: [Insert.class]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE(tm,xlocation,ylocation,velocity) VALUES(?,?,?,?);
+2013-10-01 08:21:43,124   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-01 08:21:43,127   INFO  [main] HOST: Creating voltdbroot directory: /home/yabuta/app_datastore/VoltPrius/voltdbroot
+2013-10-01 08:21:43,128   INFO  [main] HOST: Generating default deployment file "/home/yabuta/app_datastore/VoltPrius/voltdbroot/deployment.xml"
+2013-10-01 08:21:43,143   INFO  [main] CONSOLE: Build: 3.2.1 This is not from a known repository Community Edition
+2013-10-01 08:21:43,153   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-01 08:21:43,183   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-01 08:21:43,183   INFO  [main] HOST: Attempting to bind to leader ip localhost/127.0.0.1:3021
+2013-10-01 08:21:43,186   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader localhost/127.0.0.1:3021
+2013-10-01 08:21:43,205   INFO  [main] HOST: Leader provided address 127.0.0.1
+2013-10-01 08:21:43,205   INFO  [main] HOST: Clock skew to across all nodes in the cluster is 2
+2013-10-01 08:21:43,241   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-01 08:21:43,248   FATAL [main] HOST: ZooKeeper server failed to bind to client socket: /127.0.0.1:2181
+2013-10-01 08:21:43,249   FATAL [main] HOST: java.net.BindException: アドレスは既に使用中です
+2013-10-01 08:22:03,842   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-01 08:22:03,845   INFO  [main] HOST: Generating default deployment file "/home/yabuta/app_datastore/VoltPrius/voltdbroot/deployment.xml"
+2013-10-01 08:22:03,860   INFO  [main] CONSOLE: Build: 3.2.1 This is not from a known repository Community Edition
+2013-10-01 08:22:03,870   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-01 08:22:03,901   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-01 08:22:03,901   INFO  [main] HOST: Attempting to bind to leader ip localhost/127.0.0.1:3021
+2013-10-01 08:22:03,904   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2013-10-01 08:22:03,938   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-01 08:22:03,949   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-10-01 08:22:04,000   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@3790ce52
+2013-10-01 08:22:04,005   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2181
+2013-10-01 08:22:04,008   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2013-10-01 08:22:04,009   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Accepted socket connection from /127.0.0.1:49004
+2013-10-01 08:22:04,011   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:49004
+2013-10-01 08:22:04,027   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x15203b2bf5800000 with negotiated timeout 6000 for client /127.0.0.1:49004
+2013-10-01 08:22:04,028   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x15203b2bf5800000, negotiated timeout = 6000
+2013-10-01 08:22:04,080   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-10-01 08:22:04,104   INFO  [main] HOST: Host id of this node is: 0
+2013-10-01 08:22:04,104   INFO  [main] CONSOLE: Host id of this node is: 0
+2013-10-01 08:22:04,113   INFO  [main] HOST: URL of deployment info: /home/yabuta/app_datastore/VoltPrius/voltdbroot/deployment.xml
+2013-10-01 08:22:04,330   INFO  [main] HOST: Dead host timeout set to 10000 milliseconds
+2013-10-01 08:22:04,338   INFO  [main] HOST: Creating snapshot directory: /home/yabuta/app_datastore/VoltPrius/voltdbroot/snapshots
+2013-10-01 08:22:04,339   INFO  [main] HOST: Creating export overflow directory: /home/yabuta/app_datastore/VoltPrius/voltdbroot/export_overflow
+2013-10-01 08:22:04,632   INFO  [main] HOST: Registering stats mailbox id 0:-2
+2013-10-01 08:22:05,043   INFO  [main] EXPORT: System is not using any export functionality.
+2013-10-01 08:22:05,095   INFO  [Iv2ExecutionSite: 0:0] HOST: Loading native VoltDB code (voltdb-3.2.1). A confirmation message will follow if the loading is successful.
+2013-10-01 08:22:05,099   INFO  [Iv2ExecutionSite: 0:0] HOST: Successfully loaded native VoltDB library voltdb-3.2.1.
+2013-10-01 08:22:05,171   INFO  [Leader elector-/db/leaders/globalservice] HOST: Host 0 promoted to be the global service provider
+2013-10-01 08:22:05,203   INFO  [Leader elector-/db/leaders/globalservice] TM: Start watching partition 0
+2013-10-01 08:22:05,212   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:0 as leader for partition 0
+2013-10-01 08:22:05,227   INFO  [Leader elector-/db/leaders/globalservice] TM: Start watching partition 1
+2013-10-01 08:22:05,234   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:1 as leader for partition 1
+2013-10-01 08:22:05,244   INFO  [LeaderCache] TM: SP 0:0 for partition 0 found (including self) 1 surviving replicas to repair.  Survivors: 0:0
+2013-10-01 08:22:05,244   INFO  [LeaderCache] TM: SP 0:0 for partition 0 finished leader promotion. Took 11 ms.
+2013-10-01 08:22:05,253   INFO  [LeaderCache] TM: SP 0:1 for partition 1 found (including self) 1 surviving replicas to repair.  Survivors: 0:1
+2013-10-01 08:22:05,254   INFO  [LeaderCache] TM: SP 0:1 for partition 1 finished leader promotion. Took 3 ms.
+2013-10-01 08:22:05,258   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-01 08:22:05,274   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-01 08:22:05,310   INFO  [LeaderCache] TM: MP 0:2 for partition 16383 found 2 surviving leaders to repair.  Survivors: 0:0, 0:1
+2013-10-01 08:22:05,311   INFO  [LeaderCache] TM: MP 0:2 for partition 16383 finished leader promotion. Took 27 ms.
+2013-10-01 08:22:05,324   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-01 08:22:05,382   INFO  [main] HOST: Database start action is Create.
+2013-10-01 08:22:05,382   INFO  [main] HOST: Listening for native wire protocol clients on port 21212.
+2013-10-01 08:22:05,382   INFO  [main] HOST: Listening for admin wire protocol clients on port 21211.
+2013-10-01 08:22:05,382   INFO  [main] HOST: Local machine HTTP monitoring is listening on port 8080.
+2013-10-01 08:22:05,382   INFO  [main] HOST: Json API over HTTP enabled at path /api/1.0/, listening on port 8080.
+2013-10-01 08:22:05,382   INFO  [main] HOST: Available JVM arguments: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCondCardMark -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseParNewGC -Xmx1024m -Dlog4j.configuration=file:///home/yabuta/voltdb/voltdb/log4j.xml -Djava.library.path=/home/yabuta/voltdb/voltdb
+2013-10-01 08:22:05,382   INFO  [main] HOST: JVM class path: :/home/yabuta/voltdb/voltdb/voltdb-3.2.1.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/guava-12.0.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jsch-0.1.48.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar
+2013-10-01 08:22:05,382   INFO  [main] HOST: Maximum usable Java heap set to 990 mb.
+2013-10-01 08:22:05,383   INFO  [main] HOST: Cluster has 1 hosts with leader hostname: "localhost". 2 sites per host. K = 0.
+2013-10-01 08:22:05,383   INFO  [main] HOST: The entire cluster has 1 copy of each of the 2 logical partitions.
+2013-10-01 08:22:05,383   INFO  [main] HOST: Detection of network partitions in the cluster is enabled.
+2013-10-01 08:22:05,383   INFO  [main] HOST: Client authentication is not enabled. Anonymous clients accepted.
+2013-10-01 08:22:05,383   INFO  [main] HOST: No schedule set for automated snapshots.
+2013-10-01 08:22:05,383   INFO  [main] HOST: Using "voltdbroot" for voltdbroot directory.
+2013-10-01 08:22:05,383   INFO  [main] HOST: CPU INFO:         4 Cores, 2 Sockets, 4 Hardware Threads
+2013-10-01 08:22:05,383   INFO  [main] HOST: CPU DESC:         Intel(R) Xeon(R) CPU           X5272  @ 3.40GHz 6144 KB cache
+2013-10-01 08:22:05,384   INFO  [main] HOST: HOST MEMORY (MB): 16048
+2013-10-01 08:22:05,384   INFO  [main] HOST: OS PROFILE:       Linux 3.8.9-200.fc18.x86_64 amd64 ja_JP
+2013-10-01 08:22:05,384   INFO  [main] HOST: JAVA VERSION:     1.7.0_19
+2013-10-01 08:22:05,384   INFO  [main] HOST: JAVA RUNTIME:     OpenJDK Runtime Environment (1.7.0_19-mockbuild_2013_04_19_20_08-b00)
+2013-10-01 08:22:05,384   INFO  [main] HOST: JAVA VM:          OpenJDK 64-Bit Server VM (23.7-b01, mixed mode)
+2013-10-01 08:22:05,384   INFO  [main] HOST: About to list cluster interfaces for all nodes with format [ip1 ip2 ... ipN] client-port:admin-port:http-port
+2013-10-01 08:22:05,384   INFO  [main] HOST:   Host id: 0 with interfaces: 133.6.204.151 21212,21211,8080 [SELF]
+2013-10-01 08:22:05,390   WARN  [main] HOST: Running without redundancy (k=0) is not recommended for production use.
+2013-10-01 08:22:05,405   INFO  [SnapshotDaemon] LOGGING: This node was selected as the leader for snapshot truncation
+2013-10-01 08:22:05,405   INFO  [SnapshotDaemon] LOGGING: Checking for existence of snapshot truncation request
+2013-10-01 08:22:05,917   INFO  [Thread-8] CONSOLE: Server completed initialization.
+2013-10-01 08:23:42,194   INFO  [ZooKeeperServer] ZK-SERVER: Processed session termination for sessionid: 0x15203b2bf5800000
+2013-10-01 17:38:38,492   INFO  [main] COMPILER: [ADROID_DATA_STORE.insert]: Compiling Statement: INSERT INTO ADROID_DATA_STORE VALUES (?, ?, ?, ?);
+2013-10-01 17:38:38,575   INFO  [main] COMPILER: [PRIUS_DATA_STORE.insert]: Compiling Statement: INSERT INTO PRIUS_DATA_STORE VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+2013-10-01 17:38:38,601   INFO  [main] COMPILER: [Insert.class]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE(tm,xlocation,ylocation,velocity) VALUES(?,?,?,?);
+2013-10-01 17:38:38,606   ERROR [main] COMPILER: [Insert.class]: Failed to plan for statement (sql) INSERT INTO ANDROID_DATA_STORE(tm,xlocation,ylocation,velocity) VALUES(?,?,?,?); Error: "user lacks privilege or object not found: ANDROID_DATA_STORE"
+2013-10-01 17:38:38,607   ERROR [main] COMPILER: Failed to compile XML
+2013-10-01 17:38:38,608   ERROR [main] COMPILER: Catalog compilation failed.
+2013-10-01 17:55:32,670   INFO  [main] COMPILER: [ANDROID_DATA_STORE.insert]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE VALUES (?, ?, ?, ?);
+2013-10-01 17:55:32,753   INFO  [main] COMPILER: [PRIUS_DATA_STORE.insert]: Compiling Statement: INSERT INTO PRIUS_DATA_STORE VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+2013-10-01 17:55:32,779   INFO  [main] COMPILER: [Insert.class]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE(tm,xlocation,ylocation,velocity) VALUES(?,?,?,?);
+2013-10-01 08:55:53,182   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-01 08:55:53,185   INFO  [main] HOST: Generating default deployment file "/home/yabuta/app_datastore/VoltPrius/voltdbroot/deployment.xml"
+2013-10-01 08:55:53,201   INFO  [main] CONSOLE: Build: 3.2.1 This is not from a known repository Community Edition
+2013-10-01 08:55:53,211   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-01 08:55:53,241   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-01 08:55:53,241   INFO  [main] HOST: Attempting to bind to leader ip localhost/127.0.0.1:3021
+2013-10-01 08:55:53,244   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2013-10-01 08:55:53,279   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-01 08:55:53,290   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-10-01 08:55:53,341   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@304e9ca
+2013-10-01 08:55:53,346   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2181
+2013-10-01 08:55:53,349   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2013-10-01 08:55:53,350   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Accepted socket connection from /127.0.0.1:49016
+2013-10-01 08:55:53,352   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:49016
+2013-10-01 08:55:53,363   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x15204aa784000000 with negotiated timeout 6000 for client /127.0.0.1:49016
+2013-10-01 08:55:53,364   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x15204aa784000000, negotiated timeout = 6000
+2013-10-01 08:55:53,407   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-10-01 08:55:53,437   INFO  [main] HOST: Host id of this node is: 0
+2013-10-01 08:55:53,437   INFO  [main] CONSOLE: Host id of this node is: 0
+2013-10-01 08:55:53,447   INFO  [main] HOST: URL of deployment info: /home/yabuta/app_datastore/VoltPrius/voltdbroot/deployment.xml
+2013-10-01 08:55:53,666   INFO  [main] HOST: Dead host timeout set to 10000 milliseconds
+2013-10-01 08:55:53,969   INFO  [main] HOST: Registering stats mailbox id 0:-2
+2013-10-01 08:55:54,414   INFO  [main] EXPORT: System is not using any export functionality.
+2013-10-01 08:55:54,469   INFO  [Iv2ExecutionSite: 0:0] HOST: Loading native VoltDB code (voltdb-3.2.1). A confirmation message will follow if the loading is successful.
+2013-10-01 08:55:54,473   INFO  [Iv2ExecutionSite: 0:0] HOST: Successfully loaded native VoltDB library voltdb-3.2.1.
+2013-10-01 08:55:54,553   INFO  [Leader elector-/db/leaders/globalservice] HOST: Host 0 promoted to be the global service provider
+2013-10-01 08:55:54,584   INFO  [Leader elector-/db/leaders/globalservice] TM: Start watching partition 0
+2013-10-01 08:55:54,595   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:0 as leader for partition 0
+2013-10-01 08:55:54,603   INFO  [Leader elector-/db/leaders/globalservice] TM: Start watching partition 1
+2013-10-01 08:55:54,620   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:1 as leader for partition 1
+2013-10-01 08:55:54,626   INFO  [LeaderCache] TM: SP 0:0 for partition 0 found (including self) 1 surviving replicas to repair.  Survivors: 0:0
+2013-10-01 08:55:54,627   INFO  [LeaderCache] TM: SP 0:0 for partition 0 finished leader promotion. Took 7 ms.
+2013-10-01 08:55:54,632   INFO  [LeaderCache] TM: SP 0:1 for partition 1 found (including self) 1 surviving replicas to repair.  Survivors: 0:1
+2013-10-01 08:55:54,633   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-01 08:55:54,633   INFO  [LeaderCache] TM: SP 0:1 for partition 1 finished leader promotion. Took 3 ms.
+2013-10-01 08:55:54,662   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-01 08:55:54,703   INFO  [LeaderCache] TM: MP 0:2 for partition 16383 found 2 surviving leaders to repair.  Survivors: 0:0, 0:1
+2013-10-01 08:55:54,704   INFO  [LeaderCache] TM: MP 0:2 for partition 16383 finished leader promotion. Took 37 ms.
+2013-10-01 08:55:54,717   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-01 08:55:54,769   INFO  [main] HOST: Database start action is Create.
+2013-10-01 08:55:54,769   INFO  [main] HOST: Listening for native wire protocol clients on port 21212.
+2013-10-01 08:55:54,769   INFO  [main] HOST: Listening for admin wire protocol clients on port 21211.
+2013-10-01 08:55:54,769   INFO  [main] HOST: Local machine HTTP monitoring is listening on port 8080.
+2013-10-01 08:55:54,769   INFO  [main] HOST: Json API over HTTP enabled at path /api/1.0/, listening on port 8080.
+2013-10-01 08:55:54,770   INFO  [main] HOST: Available JVM arguments: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCondCardMark -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseParNewGC -Xmx1024m -Dlog4j.configuration=file:///home/yabuta/voltdb/voltdb/log4j.xml -Djava.library.path=/home/yabuta/voltdb/voltdb
+2013-10-01 08:55:54,770   INFO  [main] HOST: JVM class path: ./:/home/yabuta/voltdb/voltdb/voltdb-3.2.1.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/guava-12.0.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jsch-0.1.48.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/voltdb/voltdb-3.2.1.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/guava-12.0.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jsch-0.1.48.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar
+2013-10-01 08:55:54,770   INFO  [main] HOST: Maximum usable Java heap set to 990 mb.
+2013-10-01 08:55:54,770   INFO  [main] HOST: Cluster has 1 hosts with leader hostname: "localhost". 2 sites per host. K = 0.
+2013-10-01 08:55:54,770   INFO  [main] HOST: The entire cluster has 1 copy of each of the 2 logical partitions.
+2013-10-01 08:55:54,770   INFO  [main] HOST: Detection of network partitions in the cluster is enabled.
+2013-10-01 08:55:54,770   INFO  [main] HOST: Client authentication is not enabled. Anonymous clients accepted.
+2013-10-01 08:55:54,770   INFO  [main] HOST: No schedule set for automated snapshots.
+2013-10-01 08:55:54,770   INFO  [main] HOST: Using "voltdbroot" for voltdbroot directory.
+2013-10-01 08:55:54,771   INFO  [main] HOST: CPU INFO:         4 Cores, 2 Sockets, 4 Hardware Threads
+2013-10-01 08:55:54,771   INFO  [main] HOST: CPU DESC:         Intel(R) Xeon(R) CPU           X5272  @ 3.40GHz 6144 KB cache
+2013-10-01 08:55:54,771   INFO  [main] HOST: HOST MEMORY (MB): 16048
+2013-10-01 08:55:54,771   INFO  [main] HOST: OS PROFILE:       Linux 3.8.9-200.fc18.x86_64 amd64 ja_JP
+2013-10-01 08:55:54,771   INFO  [main] HOST: JAVA VERSION:     1.7.0_19
+2013-10-01 08:55:54,771   INFO  [main] HOST: JAVA RUNTIME:     OpenJDK Runtime Environment (1.7.0_19-mockbuild_2013_04_19_20_08-b00)
+2013-10-01 08:55:54,771   INFO  [main] HOST: JAVA VM:          OpenJDK 64-Bit Server VM (23.7-b01, mixed mode)
+2013-10-01 08:55:54,771   INFO  [main] HOST: About to list cluster interfaces for all nodes with format [ip1 ip2 ... ipN] client-port:admin-port:http-port
+2013-10-01 08:55:54,771   INFO  [main] HOST:   Host id: 0 with interfaces: 133.6.204.151 21212,21211,8080 [SELF]
+2013-10-01 08:55:54,788   WARN  [main] HOST: Running without redundancy (k=0) is not recommended for production use.
+2013-10-01 08:55:54,803   INFO  [SnapshotDaemon] LOGGING: This node was selected as the leader for snapshot truncation
+2013-10-01 08:55:54,803   INFO  [SnapshotDaemon] LOGGING: Checking for existence of snapshot truncation request
+2013-10-01 08:55:55,309   INFO  [Thread-8] CONSOLE: Server completed initialization.
+2013-10-01 09:05:52,993   WARN  [Ad Hoc Planner - 0] HOST: Statement has a non-deterministic result - statement: "select * from prius_data_store limit 50" , reason: the query result does not guarantee a consistent ordering
+2013-10-01 09:06:03,252   WARN  [Ad Hoc Planner - 0] HOST: Statement has a non-deterministic result - statement: "select * from prius_data_store limit 50" , reason: the query result does not guarantee a consistent ordering
+2013-10-01 09:06:53,457   WARN  [Ad Hoc Planner - 0] HOST: Statement has a non-deterministic result - statement: "select * from prius_data_store where speed > 50 limit 50" , reason: the query result does not guarantee a consistent ordering
+2013-10-01 09:07:18,429   WARN  [Ad Hoc Planner - 0] HOST: Statement has a non-deterministic result - statement: "select tm,speed from prius_data_store where speed > 30 limit 50" , reason: the query result does not guarantee a consistent ordering
+2013-10-01 09:12:01,218   INFO  [Iv2ExecutionSite: 0:2] SNAPSHOT: Synchronously saving database to path: /home/yabuta/app_datastore/VoltPrius/voltdbroot/snapshots/, ID: 20131001 at 1380618721218
+2013-10-01 09:12:01,525   INFO  [Replicated SnapshotDataTarget terminator ] SNAPSHOT: Snapshot 20131001 finished at 1380618721525 and took 0.254 seconds 
+2013-10-01 09:12:01,646   INFO  [Iv2ExecutionSite: 0:2] SNAPSHOT: Snapshot initiation took 428 milliseconds
+2013-10-01 09:12:23,713   INFO  [ZooKeeperServer] ZK-SERVER: Processed session termination for sessionid: 0x15204aa784000000
+2013-10-01 09:13:44,189   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-01 09:13:44,193   INFO  [main] HOST: Generating default deployment file "/home/yabuta/app_datastore/VoltPrius/voltdbroot/deployment.xml"
+2013-10-01 09:13:44,208   INFO  [main] CONSOLE: Build: 3.2.1 This is not from a known repository Community Edition
+2013-10-01 09:13:44,218   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-01 09:13:44,249   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-01 09:13:44,249   INFO  [main] HOST: Attempting to bind to leader ip localhost/127.0.0.1:3021
+2013-10-01 09:13:44,252   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2013-10-01 09:13:44,286   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-01 09:13:44,296   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-10-01 09:13:44,347   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@3790ce52
+2013-10-01 09:13:44,353   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2181
+2013-10-01 09:13:44,356   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2013-10-01 09:13:44,356   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Accepted socket connection from /127.0.0.1:49028
+2013-10-01 09:13:44,358   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:49028
+2013-10-01 09:13:44,375   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x152052d353800000 with negotiated timeout 6000 for client /127.0.0.1:49028
+2013-10-01 09:13:44,375   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x152052d353800000, negotiated timeout = 6000
+2013-10-01 09:13:44,432   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-10-01 09:13:44,457   INFO  [main] HOST: Host id of this node is: 0
+2013-10-01 09:13:44,457   INFO  [main] CONSOLE: Host id of this node is: 0
+2013-10-01 09:13:44,466   INFO  [main] HOST: URL of deployment info: /home/yabuta/app_datastore/VoltPrius/voltdbroot/deployment.xml
+2013-10-01 09:13:44,684   INFO  [main] HOST: Dead host timeout set to 10000 milliseconds
+2013-10-01 09:13:44,990   INFO  [main] HOST: Registering stats mailbox id 0:-2
+2013-10-01 09:13:45,427   INFO  [main] EXPORT: System is not using any export functionality.
+2013-10-01 09:13:45,479   INFO  [Iv2ExecutionSite: 0:0] HOST: Loading native VoltDB code (voltdb-3.2.1). A confirmation message will follow if the loading is successful.
+2013-10-01 09:13:45,483   INFO  [Iv2ExecutionSite: 0:0] HOST: Successfully loaded native VoltDB library voltdb-3.2.1.
+2013-10-01 09:13:45,552   INFO  [Leader elector-/db/leaders/globalservice] HOST: Host 0 promoted to be the global service provider
+2013-10-01 09:13:45,583   INFO  [Leader elector-/db/leaders/globalservice] TM: Start watching partition 0
+2013-10-01 09:13:45,592   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:0 as leader for partition 0
+2013-10-01 09:13:45,601   INFO  [Leader elector-/db/leaders/globalservice] TM: Start watching partition 1
+2013-10-01 09:13:45,618   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:1 as leader for partition 1
+2013-10-01 09:13:45,624   INFO  [LeaderCache] TM: SP 0:0 for partition 0 found (including self) 1 surviving replicas to repair.  Survivors: 0:0
+2013-10-01 09:13:45,624   INFO  [LeaderCache] TM: SP 0:0 for partition 0 finished leader promotion. Took 6 ms.
+2013-10-01 09:13:45,631   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-01 09:13:45,642   INFO  [LeaderCache] TM: SP 0:1 for partition 1 found (including self) 1 surviving replicas to repair.  Survivors: 0:1
+2013-10-01 09:13:45,642   INFO  [LeaderCache] TM: SP 0:1 for partition 1 finished leader promotion. Took 15 ms.
+2013-10-01 09:13:45,664   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-01 09:13:45,715   INFO  [LeaderCache] TM: MP 0:2 for partition 16383 found 2 surviving leaders to repair.  Survivors: 0:0, 0:1
+2013-10-01 09:13:45,716   INFO  [LeaderCache] TM: MP 0:2 for partition 16383 finished leader promotion. Took 31 ms.
+2013-10-01 09:13:45,729   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-01 09:13:45,781   INFO  [main] HOST: Database start action is Create.
+2013-10-01 09:13:45,781   INFO  [main] HOST: Listening for native wire protocol clients on port 21212.
+2013-10-01 09:13:45,781   INFO  [main] HOST: Listening for admin wire protocol clients on port 21211.
+2013-10-01 09:13:45,782   INFO  [main] HOST: Local machine HTTP monitoring is listening on port 8080.
+2013-10-01 09:13:45,782   INFO  [main] HOST: Json API over HTTP enabled at path /api/1.0/, listening on port 8080.
+2013-10-01 09:13:45,782   INFO  [main] HOST: Available JVM arguments: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCondCardMark -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseParNewGC -Xmx1024m -Dlog4j.configuration=file:///home/yabuta/voltdb/voltdb/log4j.xml -Djava.library.path=/home/yabuta/voltdb/voltdb
+2013-10-01 09:13:45,782   INFO  [main] HOST: JVM class path: :/home/yabuta/voltdb/voltdb/voltdb-3.2.1.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/guava-12.0.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jsch-0.1.48.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar
+2013-10-01 09:13:45,782   INFO  [main] HOST: Maximum usable Java heap set to 990 mb.
+2013-10-01 09:13:45,782   INFO  [main] HOST: Cluster has 1 hosts with leader hostname: "localhost". 2 sites per host. K = 0.
+2013-10-01 09:13:45,782   INFO  [main] HOST: The entire cluster has 1 copy of each of the 2 logical partitions.
+2013-10-01 09:13:45,782   INFO  [main] HOST: Detection of network partitions in the cluster is enabled.
+2013-10-01 09:13:45,782   INFO  [main] HOST: Client authentication is not enabled. Anonymous clients accepted.
+2013-10-01 09:13:45,783   INFO  [main] HOST: No schedule set for automated snapshots.
+2013-10-01 09:13:45,783   INFO  [main] HOST: Using "voltdbroot" for voltdbroot directory.
+2013-10-01 09:13:45,783   INFO  [main] HOST: CPU INFO:         4 Cores, 2 Sockets, 4 Hardware Threads
+2013-10-01 09:13:45,783   INFO  [main] HOST: CPU DESC:         Intel(R) Xeon(R) CPU           X5272  @ 3.40GHz 6144 KB cache
+2013-10-01 09:13:45,783   INFO  [main] HOST: HOST MEMORY (MB): 16048
+2013-10-01 09:13:45,783   INFO  [main] HOST: OS PROFILE:       Linux 3.8.9-200.fc18.x86_64 amd64 ja_JP
+2013-10-01 09:13:45,783   INFO  [main] HOST: JAVA VERSION:     1.7.0_19
+2013-10-01 09:13:45,783   INFO  [main] HOST: JAVA RUNTIME:     OpenJDK Runtime Environment (1.7.0_19-mockbuild_2013_04_19_20_08-b00)
+2013-10-01 09:13:45,783   INFO  [main] HOST: JAVA VM:          OpenJDK 64-Bit Server VM (23.7-b01, mixed mode)
+2013-10-01 09:13:45,783   INFO  [main] HOST: About to list cluster interfaces for all nodes with format [ip1 ip2 ... ipN] client-port:admin-port:http-port
+2013-10-01 09:13:45,784   INFO  [main] HOST:   Host id: 0 with interfaces: 133.6.204.151 21212,21211,8080 [SELF]
+2013-10-01 09:13:45,795   WARN  [main] HOST: Running without redundancy (k=0) is not recommended for production use.
+2013-10-01 09:13:45,809   INFO  [SnapshotDaemon] LOGGING: This node was selected as the leader for snapshot truncation
+2013-10-01 09:13:45,809   INFO  [SnapshotDaemon] LOGGING: Checking for existence of snapshot truncation request
+2013-10-01 09:13:46,320   INFO  [Thread-8] CONSOLE: Server completed initialization.
+2013-10-01 09:13:59,863   WARN  [Ad Hoc Planner - 0] HOST: Statement has a non-deterministic result - statement: "select tm,speed from prius_data_store where speed > 30 limit 50" , reason: the query result does not guarantee a consistent ordering
+2013-10-01 09:14:40,419   INFO  [Iv2ExecutionSite: 0:2] CONSOLE: Restoring from path: /home/yabuta/app_datastore/VoltPrius/voltdbroot/snapshots/ with nonce: 20131001
+2013-10-01 09:14:40,463   INFO  [Iv2ExecutionSite: 0:0] EXPORT: Truncating export data after txnId 3619632667738111
+2013-10-01 09:14:40,612   INFO  [Iv2ExecutionSite: 0:2] CONSOLE: Finished restore of /home/yabuta/app_datastore/VoltPrius/voltdbroot/snapshots/ with nonce: 20131001 in 0.19 seconds

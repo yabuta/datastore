@@ -1,0 +1,55 @@
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to VoltDB cluster as the leader...
+Host id of this node is: 0
+FATAL: Unable to load catalog
+FATAL: Fatal exception
+java.io.IOException: Database catalog not found - please build your application using the current version of VoltDB.
+	at org.voltdb.utils.CatalogUtil.loadCatalogFromJar(CatalogUtil.java:142)
+	at org.voltdb.Inits$LoadCatalog.run(Inits.java:344)
+	at org.voltdb.Inits$InitializerWorker.run(Inits.java:109)
+	at org.voltdb.Inits.doInitializationWork(Inits.java:189)
+	at org.voltdb.RealVoltDB.initialize(RealVoltDB.java:506)
+	at org.voltdb.VoltDB.initialize(VoltDB.java:901)
+	at org.voltdb.VoltDB.main(VoltDB.java:885)
+VoltDB has encountered an unrecoverable error and is exiting.
+The log may contain additional information.
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to VoltDB cluster as the leader...
+Host id of this node is: 0
+WARN: Running without redundancy (k=0) is not recommended for production use.
+Server completed initialization.
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to VoltDB cluster as the leader...
+Host id of this node is: 0
+WARN: Running without redundancy (k=0) is not recommended for production use.
+Server completed initialization.

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+javac ClientMain.java
+javac SendServer.java
+javac SenData.java
+javac ConnectServer.java

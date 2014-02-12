@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -classpath $HOME/datarec:$HOME/datarec/postgresql-9.2-1002.jdbc4.jar ServerMain

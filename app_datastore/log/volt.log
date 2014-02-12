@@ -1,0 +1,67 @@
+2013-11-06 08:55:54,572   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-11-06 08:55:54,586   INFO  [main] CONSOLE: Build: 3.2.1 This is not from a known repository Community Edition
+2013-11-06 08:55:54,596   INFO  [main] NETWORK: Default network thread count: 2
+2013-11-06 08:55:54,621   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-11-06 08:55:54,621   INFO  [main] HOST: Attempting to bind to leader ip db2.ertl.jp/133.6.204.152:3021
+2013-11-06 08:55:54,624   INFO  [main] CONSOLE: Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2013-11-06 08:55:54,647   INFO  [main] HOST: Leader provided address 133.6.204.152
+2013-11-06 08:55:54,648   INFO  [main] HOST: Clock skew to across all nodes in the cluster is 1
+2013-11-06 08:55:54,678   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2288
+2013-11-06 08:55:54,686   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-11-06 08:55:54,802   INFO  [ZooKeeperServer] AGREEMENT: Loaded ZK snapshot
+2013-11-06 08:55:54,807   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2288 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@40070a40
+2013-11-06 08:55:54,812   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2288
+2013-11-06 08:55:54,813   INFO  [main-SendThread(localhost.localdomain:2288)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2288, initiating session
+2013-11-06 08:55:54,813   INFO  [NIOServerCxn.Factory:/127.0.0.1:2288] ZK-SERVER: Accepted socket connection from /127.0.0.1:47617
+2013-11-06 08:55:54,815   INFO  [NIOServerCxn.Factory:/127.0.0.1:2288] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:47617
+2013-11-06 08:55:54,833   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x157cfd2260000001 with negotiated timeout 6000 for client /127.0.0.1:47617
+2013-11-06 08:55:54,833   INFO  [main-SendThread(localhost.localdomain:2288)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2288, sessionid = 0x157cfd2260000001, negotiated timeout = 6000
+2013-11-06 08:55:54,850   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-11-06 08:55:54,863   INFO  [main] HOST: Host id of this node is: 1
+2013-11-06 08:55:54,863   INFO  [main] CONSOLE: Host id of this node is: 1
+2013-11-06 08:55:54,866   ERROR [main] ZK-SERVER: Thread Thread[main,5,main] died
+java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: deployment.xml (No such file or directory)
+	at org.voltdb.RealVoltDB.readDeploymentAndCreateStarterCatalogContext(RealVoltDB.java:957)
+	at org.voltdb.RealVoltDB.initialize(RealVoltDB.java:368)
+	at org.voltdb.VoltDB.initialize(VoltDB.java:901)
+	at org.voltdb.VoltDB.main(VoltDB.java:885)
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: deployment.xml (No such file or directory)
+	at org.voltcore.utils.CoreUtils.urlToBytes(CoreUtils.java:411)
+	at org.voltdb.RealVoltDB.readDeploymentAndCreateStarterCatalogContext(RealVoltDB.java:865)
+	... 3 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: deployment.xml (No such file or directory)
+	at org.voltcore.utils.CoreUtils.urlToBytes(CoreUtils.java:392)
+	... 4 more
+Caused by: java.io.FileNotFoundException: deployment.xml (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at org.voltcore.utils.CoreUtils.urlToBytes(CoreUtils.java:390)
+	... 4 more
+2013-11-06 08:56:41,678   INFO  [Socket Joiner] HOST: Received request type PUBLISH_HOSTID
+2013-11-06 08:56:41,693   INFO  [ZooKeeperServer] REJOIN: Joining site 2:-1 known  active sites 0:-1, 1:-1, 2:-1
+2013-11-06 08:56:42,035   WARN  [ZooKeeperServer] org.voltdb.messaging.impl.HostMessenger: Attempted delivery of message to failed site: 2:-1
+2013-11-06 08:56:42,037   WARN  [Volt Network - 0] HOST: Received remote hangup from foreign host 133.6.204.151
+2013-11-06 08:56:42,041   WARN  [Volt Network - 0] NETWORK: Host 2 failed
+2013-11-06 08:56:42,042   INFO  [ZooKeeperServer] REJOIN: Agreement, Sending fault data 2:-1 to 0:-1, 1:-1 survivors
+2013-11-06 08:56:42,042   INFO  [ZooKeeperServer] REJOIN: Agreement, Sent fault data. Expecting 2 responses.
+2013-11-06 08:56:42,043   INFO  [ZooKeeperServer] REJOIN: Agreement, Received failure message from 0:-1 for failed sites 2:-1 safe txn id -1 failed site 2:-1
+2013-11-06 08:56:42,043   INFO  [ZooKeeperServer] REJOIN: Agreement, Received failure message from 1:-1 for failed sites 2:-1 safe txn id -1 failed site 2:-1
+2013-11-06 08:56:42,044   INFO  [ZooKeeperServer] REJOIN: Agreement, handling site faults for newly failed sites 2:-1 initiatorSafeInitPoints {2:-1-1}
+2013-11-06 08:57:16,054   WARN  [Volt Network - 1] HOST: Received remote hangup from foreign host 133.6.204.152
+2013-11-06 08:57:16,055   WARN  [Volt Network - 1] NETWORK: Host 0 failed
+2013-11-06 08:57:16,055   INFO  [ZooKeeperServer] REJOIN: Agreement, Sending fault data 0:-1 to 1:-1 survivors
+2013-11-06 08:57:16,055   INFO  [ZooKeeperServer] REJOIN: Agreement, Sent fault data. Expecting 1 responses.
+2013-11-06 08:57:16,055   INFO  [ZooKeeperServer] REJOIN: Agreement, Received failure message from 1:-1 for failed sites 0:-1 safe txn id 1548391374628323328 failed site 0:-1
+2013-11-06 08:57:16,055   INFO  [ZooKeeperServer] REJOIN: Agreement, handling site faults for newly failed sites 0:-1 initiatorSafeInitPoints {2:-1-1, 0:-11548391374628323328}
+2013-11-06 08:57:16,055   INFO  [ZooKeeperServer] ZK-SERVER: Initiating close of session 0x157cfcae1e020000
+2013-11-06 08:57:16,060   INFO  [ZooKeeperServer] ZK-SERVER: Processed session termination for sessionid: 0x157cfcae1e020000

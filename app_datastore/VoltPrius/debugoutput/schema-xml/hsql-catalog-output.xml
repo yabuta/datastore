@@ -1,0 +1,381 @@
+ELEMENT: databaseschema
+[
+   ELEMENT: table
+    name = ANDROID_DATA_STORE
+   [
+      ELEMENT: columns
+      [
+         ELEMENT: column
+          name = TM
+          nullable = true
+          size = 8
+          valuetype = TIMESTAMP
+         [
+         ELEMENT: column
+          name = XLOCATION
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = YLOCATION
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = VELOCITY
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+      ELEMENT: indexes
+      [
+         ELEMENT: index
+          columns = 
+          name = SYS_IDX_10017
+          unique = true
+         [
+         ELEMENT: index
+          columns = TM
+          name = ANDROIDIDX
+          unique = false
+         [
+      ELEMENT: constraints
+      [
+   ELEMENT: table
+    name = PRIUS_DATA_STORE
+   [
+      ELEMENT: columns
+      [
+         ELEMENT: column
+          name = TM
+          nullable = true
+          size = 8
+          valuetype = TIMESTAMP
+         [
+         ELEMENT: column
+          name = DEVMODE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = DRVCONTMODE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = DRVOVERRIDEMODE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = DRVSERVO
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = DRIVEPEDAL
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = TARGETPEDALSTR
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = INPUTPEDALSTR
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = TARGETVELOC
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = SPEED
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = DRIVESHIFT
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = TARGETSHIFT
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = INPUTSHIFT
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = STRMODE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = STRCONTMODE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = STROVERRIDEMODE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = STRSERVO
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = TARGETTORQUE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = TORQUE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = ANGLE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = TARGETANGLE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = BBRAKEPRESS
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = BRAKEPEDAL
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = BRTARGETPEDALSTR
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = BRINPUTPEDALSTR
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = BATTERY
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = VOLTAGE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = ANP
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = BATTMAXTEMPARATURE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = BATTMINTEMPARATURE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = MAXCHGCURRENT
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = MAXDISCHGCURRENT
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = SIDEACC
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = ACCELLFROMP
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = ANGLEFROMP
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = BRAKEPEDALFROMP
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = SPEEDFR
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = SPEEDFL
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = SPEEDRR
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = SPEEDRL
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = VELOCFROMP2
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = DRVMODE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = DEVPEDALSTRFROMP
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = RPM
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = VELOCFLFROMP
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = EV_MODE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = TEMP
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = SHIFTFRMPRIUS
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = LIGHT
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = GASLEVEL
+          nullable = false
+          size = 4
+          valuetype = INTEGER
+         [
+         ELEMENT: column
+          name = DOOR
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = CLUISE
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+      ELEMENT: indexes
+      [
+         ELEMENT: index
+          columns = 
+          name = SYS_IDX_10019
+          unique = true
+         [
+         ELEMENT: index
+          columns = TM
+          name = PRIUSIDX
+          unique = false
+         [
+      ELEMENT: constraints
+      [
+         ELEMENT: constraint
+          constrainttype = NOT_NULL
+          name = SYS_CT_10018
+         [
+

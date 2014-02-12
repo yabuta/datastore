@@ -1,0 +1,506 @@
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 4.0 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+WARN: Clock skew is 15 which is high. Ideally it should be sub-millisecond. Make sure NTP is running.
+WARN: Clock skew is 15 which is high. Ideally it should be sub-millisecond. Make sure NTP is running.
+Host id of this node is: 1
+WARN: This is not a highly available cluster. K-Safety is set to 0.
+WARN: Durability is turned off. Command logging is off.
+WARN: Cannot load org.voltdb.join.ElasticJoinCoordinator in VoltDB community edition. Elastic will be disabled.
+Server completed initialization.
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 4.0 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+WARN: Clock skew is 15 which is high. Ideally it should be sub-millisecond. Make sure NTP is running.
+WARN: Clock skew is 15 which is high. Ideally it should be sub-millisecond. Make sure NTP is running.
+Host id of this node is: 1
+WARN: This is not a highly available cluster. K-Safety is set to 0.
+WARN: Durability is turned off. Command logging is off.
+WARN: Cannot load org.voltdb.join.ElasticJoinCoordinator in VoltDB community edition. Elastic will be disabled.
+Server completed initialization.
+WARN: Procedure @SnapshotSave is not present in the catalog. This can happen if a catalog update removing the procedure occurred after the procedure was submitted but before the procedure was executed. This log message is rate limited to once every 60 seconds.
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 4.0 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+Host id of this node is: 1
+WARN: This is not a highly available cluster. K-Safety is set to 0.
+WARN: Durability is turned off. Command logging is off.
+WARN: Cannot load org.voltdb.join.ElasticJoinCoordinator in VoltDB community edition. Elastic will be disabled.
+Server completed initialization.
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Exception in thread "main" java.lang.NoClassDefFoundError: jsr166y/LinkedTransferQueue
+	at org.voltcore.utils.CoreUtils.getListeningExecutorService(CoreUtils.java:131)
+	at org.voltdb.RealVoltDB.initialize(RealVoltDB.java:334)
+	at org.voltdb.VoltDB.initialize(VoltDB.java:901)
+	at org.voltdb.VoltDB.main(VoltDB.java:885)
+Caused by: java.lang.ClassNotFoundException: jsr166y.LinkedTransferQueue
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 4 more
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Exception in thread "main" java.lang.NoClassDefFoundError: jsr166y/LinkedTransferQueue
+	at org.voltcore.utils.CoreUtils.getListeningExecutorService(CoreUtils.java:131)
+	at org.voltdb.RealVoltDB.initialize(RealVoltDB.java:334)
+	at org.voltdb.VoltDB.initialize(VoltDB.java:901)
+	at org.voltdb.VoltDB.main(VoltDB.java:885)
+Caused by: java.lang.ClassNotFoundException: jsr166y.LinkedTransferQueue
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 4 more
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 Notified of host 0
+Host id of this node is: 1
+ERROR: Thread Thread[main,5,main] died
+java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: deployment.xml (そのようなファイルやディレクトリはありません)
+	at org.voltdb.RealVoltDB.readDeploymentAndCreateStarterCatalogContext(RealVoltDB.java:957)
+	at org.voltdb.RealVoltDB.initialize(RealVoltDB.java:368)
+	at org.voltdb.VoltDB.initialize(VoltDB.java:901)
+	at org.voltdb.VoltDB.main(VoltDB.java:885)
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: deployment.xml (そのようなファイルやディレクトリはありません)
+	at org.voltcore.utils.CoreUtils.urlToBytes(CoreUtils.java:411)
+	at org.voltdb.RealVoltDB.readDeploymentAndCreateStarterCatalogContext(RealVoltDB.java:865)
+	... 3 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: deployment.xml (そのようなファイルやディレクトリはありません)
+	at org.voltcore.utils.CoreUtils.urlToBytes(CoreUtils.java:392)
+	... 4 more
+Caused by: java.io.FileNotFoundException: deployment.xml (そのようなファイルやディレクトリはありません)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at org.voltcore.utils.CoreUtils.urlToBytes(CoreUtils.java:390)
+	... 4 more
+1 notified of 2
+WARN: Attempted delivery of message to failed site: 2:-1
+WARN: Received remote hangup from foreign host 133.6.204.152
+WARN: Host 2 failed
+1 notified of 3
+WARN: Attempted delivery of message to failed site: 3:-1
+WARN: Received remote hangup from foreign host 133.6.204.152
+WARN: Host 3 failed
+WARN: Received remote hangup from foreign host 133.6.204.152
+WARN: Host 0 failed
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 Notified of host 0
+Host id of this node is: 1
+WARN: Running without redundancy (k=0) is not recommended for production use.
+Server completed initialization.
+WARN: Received remote hangup from foreign host 133.6.204.152
+WARN: Attempted delivery of message to failed site: 0:-1
+WARN: Attempted delivery of message to failed site: 0:-1
+WARN: Host 0 failed
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 Notified of host 0
+Host id of this node is: 1
+ERROR: Thread Thread[main,5,main] died
+java.lang.RuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: deployment.xml (No such file or directory)
+	at org.voltdb.RealVoltDB.readDeploymentAndCreateStarterCatalogContext(RealVoltDB.java:957)
+	at org.voltdb.RealVoltDB.initialize(RealVoltDB.java:368)
+	at org.voltdb.VoltDB.initialize(VoltDB.java:901)
+	at org.voltdb.VoltDB.main(VoltDB.java:885)
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: java.io.FileNotFoundException: deployment.xml (No such file or directory)
+	at org.voltcore.utils.CoreUtils.urlToBytes(CoreUtils.java:411)
+	at org.voltdb.RealVoltDB.readDeploymentAndCreateStarterCatalogContext(RealVoltDB.java:865)
+	... 3 more
+Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: deployment.xml (No such file or directory)
+	at org.voltcore.utils.CoreUtils.urlToBytes(CoreUtils.java:392)
+	... 4 more
+Caused by: java.io.FileNotFoundException: deployment.xml (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at org.voltcore.utils.CoreUtils.urlToBytes(CoreUtils.java:390)
+	... 4 more
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 notified of 2
+2 Notified of host 0
+2 Notified of host 1
+FATAL: ZooKeeper server failed to bind to client socket: /127.0.0.1:2288
+FATAL: java.net.BindException: Address already in use
+VoltDB has encountered an unrecoverable error and is exiting.
+The log may contain additional information.
+WARN: Received remote hangup from foreign host 133.6.204.151
+WARN: Attempted delivery of message to failed site: 2:-1
+WARN: Host 2 failed
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 Notified of host 0
+Host id of this node is: 1
+WARN: Running without redundancy (k=0) is not recommended for production use.
+Server completed initialization.
+WARN: Received remote hangup from foreign host 133.6.204.152
+WARN: Host 0 failed
+WARN: EndOfStreamException: Unable to read additional data from client sessionid 0x157cf46a6b000001, likely client has closed socket
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+2 Notified of host 0
+2 Notified of host 1
+FATAL: ZooKeeper server failed to bind to client socket: /127.0.0.1:2288
+FATAL: java.net.BindException: Address already in use
+VoltDB has encountered an unrecoverable error and is exiting.
+The log may contain additional information.
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 Notified of host 0
+Host id of this node is: 1
+WARN: Running without redundancy (k=0) is not recommended for production use.
+Server completed initialization.
+WARN: Received remote hangup from foreign host 133.6.204.152
+WARN: Attempted delivery of message to failed site: 0:-1
+WARN: Host 0 failed
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+WARN: Joining primary failed: Connection refused retrying..
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 Notified of host 0
+Host id of this node is: 1
+WARN: Running without redundancy (k=0) is not recommended for production use.
+Server completed initialization.
+WARN: Received remote hangup from foreign host 133.6.204.152
+WARN: Attempted delivery of message to failed site: 0:-1
+WARN: Attempted delivery of message to failed site: 0:-1
+WARN: Host 0 failed
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 Notified of host 0
+Host id of this node is: 1
+WARN: Running without redundancy (k=0) is not recommended for production use.
+Server completed initialization.
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 Notified of host 0
+Host id of this node is: 1
+WARN: Running without redundancy (k=0) is not recommended for production use.
+Server completed initialization.
+WARN: Received remote hangup from foreign host 133.6.204.152
+WARN: Attempted delivery of message to failed site: 0:-1
+WARN: Attempted delivery of message to failed site: 0:-1
+WARN: Attempted delivery of message to failed site: 0:-1
+WARN: Host 0 failed
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 Notified of host 0
+Host id of this node is: 1
+WARN: Running without redundancy (k=0) is not recommended for production use.
+Server completed initialization.
+Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+Build: 3.2.1 This is not from a known repository Community Edition
+Connecting to the VoltDB cluster leader db2.ertl.jp/133.6.204.152:3021
+1 Notified of host 0
+Host id of this node is: 1
+WARN: Running without redundancy (k=0) is not recommended for production use.
+Server completed initialization.

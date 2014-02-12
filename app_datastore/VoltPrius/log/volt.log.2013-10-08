@@ -1,0 +1,355 @@
+2013-10-08 04:17:52,180   INFO  [Iv2ExecutionSite: 0:2] SNAPSHOT: Synchronously saving database to path: /home/yabuta/app_datastore/VoltPrius/voltdbroot/snapshots/, ID: 20131008 at 1381205872179
+2013-10-08 04:17:52,448   INFO  [Replicated SnapshotDataTarget terminator ] SNAPSHOT: Snapshot 20131008 finished at 1381205872448 and took 0.23 seconds 
+2013-10-08 04:17:52,571   INFO  [Iv2ExecutionSite: 0:2] SNAPSHOT: Snapshot initiation took 392 milliseconds
+2013-10-08 04:18:55,515   INFO  [Iv2ExecutionSite: 0:0] HOST: Server is entering admin mode and pausing.
+2013-10-08 04:19:01,008   INFO  [ZooKeeperServer] ZK-SERVER: Processed session termination for sessionid: 0x152f40c3a1800000
+2013-10-08 04:19:53,862   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-08 04:19:53,878   INFO  [main] CONSOLE: Build: 3.2.1 This is not from a known repository Community Edition
+2013-10-08 04:19:53,890   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-08 04:19:53,920   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-08 04:19:53,920   INFO  [main] HOST: Attempting to bind to leader ip db1.ertl.jp/133.6.204.151:3021
+2013-10-08 04:19:53,923   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2013-10-08 04:19:53,958   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-08 04:19:53,968   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-10-08 04:19:54,019   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@7a096dab
+2013-10-08 04:19:54,025   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2181
+2013-10-08 04:19:54,028   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2013-10-08 04:19:54,028   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Accepted socket connection from /127.0.0.1:49115
+2013-10-08 04:19:54,030   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:49115
+2013-10-08 04:19:54,042   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x1531d29317820000 with negotiated timeout 6000 for client /127.0.0.1:49115
+2013-10-08 04:19:54,042   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1531d29317820000, negotiated timeout = 6000
+2013-10-08 04:19:54,089   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-10-08 04:19:54,114   INFO  [main] HOST: Host id of this node is: 0
+2013-10-08 04:19:54,114   INFO  [main] CONSOLE: Host id of this node is: 0
+2013-10-08 04:19:54,123   INFO  [main] HOST: URL of deployment info: deployment.xml
+2013-10-08 04:19:54,345   INFO  [main] HOST: Dead host timeout set to 10000 milliseconds
+2013-10-08 04:59:24,207   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-08 04:59:24,222   INFO  [main] CONSOLE: Build: 3.2.1 This is not from a known repository Community Edition
+2013-10-08 04:59:24,234   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-08 04:59:24,264   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-08 04:59:24,264   INFO  [main] HOST: Attempting to bind to leader ip db1.ertl.jp/133.6.204.151:3021
+2013-10-08 04:59:24,267   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2013-10-08 04:59:24,302   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-08 04:59:24,312   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-10-08 04:59:24,363   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@7a096dab
+2013-10-08 04:59:24,368   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2181
+2013-10-08 04:59:24,371   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2013-10-08 04:59:24,372   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Accepted socket connection from /127.0.0.1:49121
+2013-10-08 04:59:24,374   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:49121
+2013-10-08 04:59:24,390   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x1531e4a8ab000000 with negotiated timeout 6000 for client /127.0.0.1:49121
+2013-10-08 04:59:24,391   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1531e4a8ab000000, negotiated timeout = 6000
+2013-10-08 04:59:24,433   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-10-08 04:59:24,457   INFO  [main] HOST: Host id of this node is: 0
+2013-10-08 04:59:24,457   INFO  [main] CONSOLE: Host id of this node is: 0
+2013-10-08 04:59:24,466   INFO  [main] HOST: URL of deployment info: deployment.xml
+2013-10-08 04:59:24,687   INFO  [main] HOST: Dead host timeout set to 10000 milliseconds
+2013-10-08 05:00:58,557   INFO  [Socket Joiner] HOST: Received request type REQUEST_HOSTID
+2013-10-08 05:00:58,581   INFO  [ZooKeeperServer] REJOIN: Joining site 1:-1 known  active sites 0:-1, 1:-1
+2013-10-08 05:00:58,627   INFO  [ZooKeeperServer] REJOIN: Shipping ZK snapshot from 0:-1 to 1:-1
+2013-10-08 05:00:58,751   FATAL [Volt Network - 1] HOST: Fatal error from id,hostname(1,133.6.204.152): Local build string "voltdb-3.6-0-g05da948-local" does not match cluster build string "This is not from a known repository"
+2013-10-08 05:15:01,569   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-08 05:15:01,585   INFO  [main] CONSOLE: Build: 3.2.1 This is not from a known repository Community Edition
+2013-10-08 05:15:01,597   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-08 05:15:01,627   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-08 05:15:01,627   INFO  [main] HOST: Attempting to bind to leader ip db1.ertl.jp/133.6.204.151:3021
+2013-10-08 05:15:01,630   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2013-10-08 05:15:01,665   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-08 05:15:01,674   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-10-08 05:15:01,725   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@7a096dab
+2013-10-08 05:15:01,731   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2181
+2013-10-08 05:15:01,734   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2013-10-08 05:15:01,734   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Accepted socket connection from /127.0.0.1:49122
+2013-10-08 05:15:01,737   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:49122
+2013-10-08 05:15:01,753   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x1531ebcf74800000 with negotiated timeout 6000 for client /127.0.0.1:49122
+2013-10-08 05:15:01,754   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1531ebcf74800000, negotiated timeout = 6000
+2013-10-08 05:15:01,801   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-10-08 05:15:01,825   INFO  [main] HOST: Host id of this node is: 0
+2013-10-08 05:15:01,825   INFO  [main] CONSOLE: Host id of this node is: 0
+2013-10-08 05:15:01,834   INFO  [main] HOST: URL of deployment info: deployment.xml
+2013-10-08 05:15:02,055   INFO  [main] HOST: Dead host timeout set to 10000 milliseconds
+2013-10-08 05:15:10,205   INFO  [Socket Joiner] HOST: Received request type REQUEST_HOSTID
+2013-10-08 05:15:10,234   INFO  [ZooKeeperServer] REJOIN: Joining site 1:-1 known  active sites 0:-1, 1:-1
+2013-10-08 05:15:10,272   INFO  [ZooKeeperServer] REJOIN: Shipping ZK snapshot from 0:-1 to 1:-1
+2013-10-08 05:15:10,398   FATAL [Volt Network - 1] HOST: Fatal error from id,hostname(1,133.6.204.152): Local build string "voltdb-3.6-0-g05da948-local" does not match cluster build string "This is not from a known repository"
+2013-10-08 14:22:29,326   INFO  [main] COMPILER: [ANDROID_DATA_STORE.insert]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE VALUES (?, ?, ?, ?);
+2013-10-08 14:22:29,379   INFO  [main] COMPILER: [PRIUS_DATA_STORE.insert]: Compiling Statement: INSERT INTO PRIUS_DATA_STORE VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+2013-10-08 14:22:29,410   INFO  [main] COMPILER: [Insert.class]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE(tm,xlocation,ylocation,velocity) VALUES(?,?,?,?);
+2013-10-08 05:23:03,181   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-08 05:23:03,197   INFO  [main] CONSOLE: Build: 3.6 voltdb-3.6-0-g05da948-local Community Edition
+2013-10-08 05:23:03,207   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-08 05:23:03,236   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-08 05:23:03,236   INFO  [main] HOST: Attempting to bind to leader ip db1.ertl.jp/133.6.204.151:3021
+2013-10-08 05:23:03,239   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2013-10-08 05:23:03,286   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-08 05:23:03,296   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-10-08 05:23:03,346   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@2dacd90a
+2013-10-08 05:23:03,352   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2181
+2013-10-08 05:23:03,355   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2013-10-08 05:23:03,355   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Accepted socket connection from /127.0.0.1:49124
+2013-10-08 05:23:03,358   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:49124
+2013-10-08 05:23:03,374   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x1531ef7c1f000000 with negotiated timeout 6000 for client /127.0.0.1:49124
+2013-10-08 05:23:03,374   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1531ef7c1f000000, negotiated timeout = 6000
+2013-10-08 05:23:03,423   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-10-08 05:23:03,448   INFO  [main] HOST: Host id of this node is: 0
+2013-10-08 05:23:03,448   INFO  [main] CONSOLE: Host id of this node is: 0
+2013-10-08 05:23:03,457   INFO  [main] HOST: URL of deployment info: deployment.xml
+2013-10-08 05:23:03,679   INFO  [main] HOST: Dead host timeout set to 90000 milliseconds
+2013-10-08 05:23:08,106   INFO  [Socket Joiner] HOST: Received request type REQUEST_HOSTID
+2013-10-08 05:23:08,152   INFO  [ZooKeeperServer] REJOIN: Joining site 1:-1 known  active sites 0:-1, 1:-1
+2013-10-08 05:23:08,175   INFO  [ZooKeeperServer] REJOIN: Shipping ZK snapshot from 0:-1 to 1:-1
+2013-10-08 05:23:09,228   INFO  [main] EXPORT: System is not using any export functionality.
+2013-10-08 05:23:09,290   INFO  [Iv2ExecutionSite: 0:0] HOST: Loading native VoltDB code (voltdb-3.6). A confirmation message will follow if the loading is successful.
+2013-10-08 05:23:09,294   INFO  [Iv2ExecutionSite: 0:0] HOST: Successfully loaded native VoltDB library voltdb-3.6.
+2013-10-08 05:23:09,394   INFO  [Leader elector-/db/leaders/globalservice] HOST: Host 0 promoted to be the global service provider
+2013-10-08 05:23:09,457   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:0 as leader for partition 0
+2013-10-08 05:23:09,476   INFO  [LeaderAppointer-Babysitters] TM: Waiting on 1 more nodes for k-safety before startup
+2013-10-08 05:23:09,480   INFO  [LeaderCache] TM: SP 0:0 for partition 0 found (including self) 1 surviving replicas to repair.  Survivors: 0:0
+2013-10-08 05:23:09,481   INFO  [LeaderCache] TM: SP 0:0 for partition 0 finished leader promotion. Took 13 ms.
+2013-10-08 05:23:09,489   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:1 as leader for partition 2
+2013-10-08 05:23:09,504   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-08 05:23:09,526   INFO  [LeaderAppointer-Babysitters] TM: Waiting on 1 more nodes for k-safety before startup
+2013-10-08 05:23:09,531   INFO  [LeaderCache] TM: SP 0:1 for partition 2 found (including self) 1 surviving replicas to repair.  Survivors: 0:1
+2013-10-08 05:23:09,531   INFO  [LeaderCache] TM: SP 0:1 for partition 2 finished leader promotion. Took 8 ms.
+2013-10-08 05:23:09,557   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-08 05:23:57,281   WARN  [ZooKeeperServer] org.voltdb.messaging.impl.HostMessenger: Attempted delivery of message to failed site: 1:-1
+2013-10-08 05:23:57,282   WARN  [Volt Network - 1] HOST: Received remote hangup from foreign host /133.6.204.152:48861
+2013-10-08 05:23:57,283   WARN  [Volt Network - 1] NETWORK: Host 1 failed
+2013-10-08 05:23:57,286   INFO  [ZooKeeperServer] REJOIN: Agreement, Processing FaultMessage {failed: 1:-1, reporting: 0:-1, witnessed: true}
+2013-10-08 05:23:57,294   INFO  [ZooKeeperServer] REJOIN: Agreement, Sending survivors SITE_FAILURE_UPDATE from site: 0:-1 survivors: [0:-1] failed: [1:-1]
+2013-10-08 05:23:57,301   INFO  [ZooKeeperServer] REJOIN: Agreement, Adding 1:-1 to failed sites history
+2013-10-08 05:23:57,301   INFO  [ZooKeeperServer] REJOIN: Agreement, handling site faults for newly failed sites 1:-1 initiatorSafeInitPoints {1:-11527265514584276993}
+2013-10-08 05:23:57,301   INFO  [ZooKeeperServer] ZK-SERVER: Initiating close of session 0x1531ef85ae800001
+2013-10-08 05:23:57,302   WARN  [ZooKeeperServer] NETWORK: Host 1 failed
+2013-10-08 05:23:57,312   INFO  [ZooKeeperServer] ZK-SERVER: Processed session termination for sessionid: 0x1531ef85ae800001
+2013-10-08 14:24:49,047   INFO  [main] COMPILER: [ANDROID_DATA_STORE.insert]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE VALUES (?, ?, ?, ?);
+2013-10-08 14:24:49,102   INFO  [main] COMPILER: [PRIUS_DATA_STORE.insert]: Compiling Statement: INSERT INTO PRIUS_DATA_STORE VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+2013-10-08 14:24:49,133   INFO  [main] COMPILER: [Insert.class]: Compiling Statement: INSERT INTO ANDROID_DATA_STORE(tm,xlocation,ylocation,velocity) VALUES(?,?,?,?);
+2013-10-08 05:24:53,771   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-08 05:24:53,788   INFO  [main] CONSOLE: Build: 3.6 voltdb-3.6-0-g05da948-local Community Edition
+2013-10-08 05:24:53,798   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-08 05:24:53,827   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-08 05:24:53,828   INFO  [main] HOST: Attempting to bind to leader ip db1.ertl.jp/133.6.204.151:3021
+2013-10-08 05:24:53,830   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2013-10-08 05:24:53,878   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-08 05:24:53,888   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-10-08 05:24:53,938   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@6148e8c
+2013-10-08 05:24:53,944   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2181
+2013-10-08 05:24:53,947   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2013-10-08 05:24:53,947   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Accepted socket connection from /127.0.0.1:49125
+2013-10-08 05:24:53,950   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:49125
+2013-10-08 05:24:53,966   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x1531f0541f000000 with negotiated timeout 6000 for client /127.0.0.1:49125
+2013-10-08 05:24:53,967   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1531f0541f000000, negotiated timeout = 6000
+2013-10-08 05:24:54,019   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-10-08 05:24:54,050   INFO  [main] HOST: Host id of this node is: 0
+2013-10-08 05:24:54,050   INFO  [main] CONSOLE: Host id of this node is: 0
+2013-10-08 05:24:54,059   INFO  [main] HOST: URL of deployment info: deployment.xml
+2013-10-08 05:24:54,285   INFO  [main] HOST: Dead host timeout set to 90000 milliseconds
+2013-10-08 05:24:59,996   INFO  [Socket Joiner] HOST: Received request type REQUEST_HOSTID
+2013-10-08 05:25:00,046   INFO  [ZooKeeperServer] REJOIN: Joining site 1:-1 known  active sites 0:-1, 1:-1
+2013-10-08 05:25:00,064   INFO  [ZooKeeperServer] REJOIN: Shipping ZK snapshot from 0:-1 to 1:-1
+2013-10-08 05:25:01,093   INFO  [main] EXPORT: System is not using any export functionality.
+2013-10-08 05:25:01,149   INFO  [Iv2ExecutionSite: 0:0] HOST: Loading native VoltDB code (voltdb-3.6). A confirmation message will follow if the loading is successful.
+2013-10-08 05:25:01,153   INFO  [Iv2ExecutionSite: 0:0] HOST: Successfully loaded native VoltDB library voltdb-3.6.
+2013-10-08 05:25:01,250   INFO  [Leader elector-/db/leaders/globalservice] HOST: Host 0 promoted to be the global service provider
+2013-10-08 05:25:01,298   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:0 as leader for partition 0
+2013-10-08 05:25:01,322   INFO  [LeaderAppointer-Babysitters] TM: Waiting on 1 more nodes for k-safety before startup
+2013-10-08 05:25:01,328   INFO  [LeaderCache] TM: SP 0:0 for partition 0 found (including self) 1 surviving replicas to repair.  Survivors: 0:0
+2013-10-08 05:25:01,329   INFO  [LeaderCache] TM: SP 0:0 for partition 0 finished leader promotion. Took 21 ms.
+2013-10-08 05:25:01,337   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:1 as leader for partition 2
+2013-10-08 05:25:01,342   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-08 05:25:01,362   INFO  [LeaderAppointer-Babysitters] TM: Waiting on 1 more nodes for k-safety before startup
+2013-10-08 05:25:01,373   INFO  [LeaderCache] TM: SP 0:1 for partition 2 found (including self) 1 surviving replicas to repair.  Survivors: 0:1
+2013-10-08 05:25:01,374   INFO  [LeaderCache] TM: SP 0:1 for partition 2 finished leader promotion. Took 18 ms.
+2013-10-08 05:25:01,401   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-08 05:25:07,489   WARN  [ZooKeeperServer] org.voltdb.messaging.impl.HostMessenger: Attempted delivery of message to failed site: 1:-1
+2013-10-08 05:25:07,494   WARN  [Volt Network - 1] HOST: Received remote hangup from foreign host /133.6.204.152:48864
+2013-10-08 05:25:07,494   WARN  [Volt Network - 1] NETWORK: Host 1 failed
+2013-10-08 05:25:07,497   INFO  [ZooKeeperServer] REJOIN: Agreement, Processing FaultMessage {failed: 1:-1, reporting: 0:-1, witnessed: true}
+2013-10-08 05:25:07,505   INFO  [ZooKeeperServer] REJOIN: Agreement, Sending survivors SITE_FAILURE_UPDATE from site: 0:-1 survivors: [0:-1] failed: [1:-1]
+2013-10-08 05:25:07,513   INFO  [ZooKeeperServer] REJOIN: Agreement, Adding 1:-1 to failed sites history
+2013-10-08 05:25:07,513   INFO  [ZooKeeperServer] REJOIN: Agreement, handling site faults for newly failed sites 1:-1 initiatorSafeInitPoints {1:-11527266103556833281}
+2013-10-08 05:25:07,513   INFO  [ZooKeeperServer] ZK-SERVER: Initiating close of session 0x1531f06037800001
+2013-10-08 05:25:07,513   WARN  [ZooKeeperServer] NETWORK: Host 1 failed
+2013-10-08 05:25:07,519   INFO  [ZooKeeperServer] ZK-SERVER: Processed session termination for sessionid: 0x1531f06037800001
+2013-10-08 05:27:19,885   INFO  [Socket Joiner] HOST: Received request type REQUEST_HOSTID
+2013-10-08 05:27:19,909   INFO  [ZooKeeperServer] REJOIN: Joining site 2:-1 known  active sites 0:-1, 2:-1
+2013-10-08 05:27:19,958   INFO  [ZooKeeperServer] REJOIN: Shipping ZK snapshot from 0:-1 to 2:-1
+2013-10-08 05:27:20,750   WARN  [Volt Network - 0] HOST: Received remote hangup from foreign host /133.6.204.152:48867
+2013-10-08 05:27:20,750   WARN  [Volt Network - 0] NETWORK: Host 2 failed
+2013-10-08 05:27:20,750   INFO  [ZooKeeperServer] REJOIN: Agreement, Processing FaultMessage {failed: 2:-1, reporting: 0:-1, witnessed: true}
+2013-10-08 05:27:20,751   INFO  [ZooKeeperServer] REJOIN: Agreement, Sending survivors SITE_FAILURE_UPDATE from site: 0:-1 survivors: [0:-1] failed: [2:-1]
+2013-10-08 05:27:20,756   INFO  [ZooKeeperServer] REJOIN: Agreement, Adding 2:-1 to failed sites history
+2013-10-08 05:27:20,756   INFO  [ZooKeeperServer] REJOIN: Agreement, handling site faults for newly failed sites 2:-1 initiatorSafeInitPoints {2:-11527267221473067010}
+2013-10-08 05:27:20,756   INFO  [ZooKeeperServer] ZK-SERVER: Initiating close of session 0x1531f1715e800002
+2013-10-08 05:27:20,756   WARN  [ZooKeeperServer] NETWORK: Host 2 failed
+2013-10-08 05:27:20,762   INFO  [ZooKeeperServer] ZK-SERVER: Processed session termination for sessionid: 0x1531f1715e800002
+2013-10-08 05:27:39,788   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-08 05:27:39,805   INFO  [main] CONSOLE: Build: 3.6 voltdb-3.6-0-g05da948-local Community Edition
+2013-10-08 05:27:39,814   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-08 05:27:39,843   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-08 05:27:39,843   INFO  [main] HOST: Attempting to bind to leader ip db1.ertl.jp/133.6.204.151:3021
+2013-10-08 05:27:39,846   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2013-10-08 05:27:39,893   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-08 05:27:39,903   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-10-08 05:27:39,952   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@6148e8c
+2013-10-08 05:27:39,959   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2181
+2013-10-08 05:27:39,961   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2013-10-08 05:27:39,962   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Accepted socket connection from /127.0.0.1:49126
+2013-10-08 05:27:39,964   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:49126
+2013-10-08 05:27:39,976   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x1531f1985e800000 with negotiated timeout 6000 for client /127.0.0.1:49126
+2013-10-08 05:27:39,976   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1531f1985e800000, negotiated timeout = 6000
+2013-10-08 05:27:40,023   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-10-08 05:27:40,048   INFO  [main] HOST: Host id of this node is: 0
+2013-10-08 05:27:40,048   INFO  [main] CONSOLE: Host id of this node is: 0
+2013-10-08 05:27:40,058   INFO  [main] HOST: URL of deployment info: deployment.xml
+2013-10-08 05:27:40,282   INFO  [main] HOST: Dead host timeout set to 90000 milliseconds
+2013-10-08 05:27:43,677   INFO  [Socket Joiner] HOST: Received request type REQUEST_HOSTID
+2013-10-08 05:27:43,733   INFO  [ZooKeeperServer] REJOIN: Joining site 1:-1 known  active sites 0:-1, 1:-1
+2013-10-08 05:27:43,756   INFO  [ZooKeeperServer] REJOIN: Shipping ZK snapshot from 0:-1 to 1:-1
+2013-10-08 05:27:44,788   INFO  [main] EXPORT: System is not using any export functionality.
+2013-10-08 05:27:44,848   INFO  [Iv2ExecutionSite: 0:0] HOST: Loading native VoltDB code (voltdb-3.6). A confirmation message will follow if the loading is successful.
+2013-10-08 05:27:44,852   INFO  [Iv2ExecutionSite: 0:0] HOST: Successfully loaded native VoltDB library voltdb-3.6.
+2013-10-08 05:27:44,949   INFO  [Leader elector-/db/leaders/globalservice] HOST: Host 0 promoted to be the global service provider
+2013-10-08 05:27:44,997   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:0 as leader for partition 0
+2013-10-08 05:27:45,013   INFO  [LeaderAppointer-Babysitters] TM: Waiting on 1 more nodes for k-safety before startup
+2013-10-08 05:27:45,024   INFO  [LeaderCache] TM: SP 0:0 for partition 0 found (including self) 1 surviving replicas to repair.  Survivors: 0:0
+2013-10-08 05:27:45,025   INFO  [LeaderCache] TM: SP 0:0 for partition 0 finished leader promotion. Took 19 ms.
+2013-10-08 05:27:45,033   INFO  [LeaderAppointer-Babysitters] TM: Appointing HSId 0:1 as leader for partition 2
+2013-10-08 05:27:45,048   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-08 05:27:45,068   INFO  [LeaderAppointer-Babysitters] TM: Waiting on 1 more nodes for k-safety before startup
+2013-10-08 05:27:45,080   INFO  [LeaderCache] TM: SP 0:1 for partition 2 found (including self) 1 surviving replicas to repair.  Survivors: 0:1
+2013-10-08 05:27:45,081   INFO  [LeaderCache] TM: SP 0:1 for partition 2 finished leader promotion. Took 13 ms.
+2013-10-08 05:27:45,097   INFO  [LeaderCache] HOST: Mailbox is not registered for site id -4
+2013-10-08 05:30:16,570   WARN  [ZooKeeperServer] org.voltdb.messaging.impl.HostMessenger: Attempted delivery of message to failed site: 1:-1
+2013-10-08 05:30:16,571   WARN  [Volt Network - 1] HOST: Received remote hangup from foreign host /133.6.204.152:48870
+2013-10-08 05:30:16,571   WARN  [Volt Network - 1] NETWORK: Host 1 failed
+2013-10-08 05:30:16,575   INFO  [ZooKeeperServer] REJOIN: Agreement, Processing FaultMessage {failed: 1:-1, reporting: 0:-1, witnessed: true}
+2013-10-08 05:30:16,583   INFO  [ZooKeeperServer] REJOIN: Agreement, Sending survivors SITE_FAILURE_UPDATE from site: 0:-1 survivors: [0:-1] failed: [1:-1]
+2013-10-08 05:30:16,590   INFO  [ZooKeeperServer] REJOIN: Agreement, Adding 1:-1 to failed sites history
+2013-10-08 05:30:16,590   INFO  [ZooKeeperServer] REJOIN: Agreement, handling site faults for newly failed sites 1:-1 initiatorSafeInitPoints {1:-11527268696332959745}
+2013-10-08 05:30:16,590   INFO  [ZooKeeperServer] ZK-SERVER: Initiating close of session 0x1531f19fee800001
+2013-10-08 05:30:16,591   WARN  [ZooKeeperServer] NETWORK: Host 1 failed
+2013-10-08 05:30:16,602   INFO  [ZooKeeperServer] ZK-SERVER: Processed session termination for sessionid: 0x1531f19fee800001
+2013-10-08 11:05:09,830   INFO  [main] CONSOLE: Initializing VoltDB...
+
+ _    __      ____  ____  ____ 
+| |  / /___  / / /_/ __ \/ __ )
+| | / / __ \/ / __/ / / / __  |
+| |/ / /_/ / / /_/ /_/ / /_/ / 
+|___/\____/_/\__/_____/_____/
+
+--------------------------------
+
+2013-10-08 11:05:09,847   INFO  [main] CONSOLE: Build: 3.6 voltdb-3.6-0-g05da948-local Community Edition
+2013-10-08 11:05:09,857   INFO  [main] NETWORK: Default network thread count: 2
+2013-10-08 11:05:09,886   INFO  [main] HOST: Beginning inter-node communication on port 3021.
+2013-10-08 11:05:09,886   INFO  [main] HOST: Attempting to bind to leader ip db1.ertl.jp/133.6.204.151:3021
+2013-10-08 11:05:09,888   INFO  [main] CONSOLE: Connecting to VoltDB cluster as the leader...
+2013-10-08 11:05:09,936   INFO  [main] ZK-SERVER: binding to port /127.0.0.1:2181
+2013-10-08 11:05:09,946   INFO  [main] ZK-SERVER: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000
+2013-10-08 11:05:09,996   INFO  [main] ZK-SERVER: Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=2000 watcher=org.voltcore.zk.ZKUtil$1@6592c255
+2013-10-08 11:05:10,002   INFO  [main-SendThread()] ZK-CLIENT: Opening socket connection to server /127.0.0.1:2181
+2013-10-08 11:05:10,005   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2013-10-08 11:05:10,005   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Accepted socket connection from /127.0.0.1:49127
+2013-10-08 11:05:10,007   INFO  [NIOServerCxn.Factory:/127.0.0.1:2181] ZK-SERVER: Client attempting to establish new session at /127.0.0.1:49127
+2013-10-08 11:05:10,024   INFO  [ZooKeeperServer] ZK-SERVER: Established session 0x15328c173c000000 with negotiated timeout 6000 for client /127.0.0.1:49127
+2013-10-08 11:05:10,024   INFO  [main-SendThread(localhost.localdomain:2181)] ZK-CLIENT: Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x15328c173c000000, negotiated timeout = 6000
+2013-10-08 11:05:10,072   INFO  [Socket Joiner] HOST: Attempting to bind to internal ip 0.0.0.0/0.0.0.0:3021
+2013-10-08 11:05:10,092   INFO  [main] HOST: Host id of this node is: 0
+2013-10-08 11:05:10,092   INFO  [main] CONSOLE: Host id of this node is: 0
+2013-10-08 11:05:10,101   INFO  [main] HOST: URL of deployment info: deployment.xml
+2013-10-08 11:05:10,326   INFO  [main] HOST: Dead host timeout set to 90000 milliseconds
+2013-10-08 11:05:22,158   INFO  [Socket Joiner] HOST: Received request type REQUEST_HOSTID
+2013-10-08 11:05:22,215   INFO  [ZooKeeperServer] REJOIN: Joining site 1:-1 known  active sites 0:-1, 1:-1
+2013-10-08 11:05:22,237   INFO  [ZooKeeperServer] REJOIN: Shipping ZK snapshot from 0:-1 to 1:-1
+2013-10-08 11:05:23,271   INFO  [main] EXPORT: System is not using any export functionality.
+2013-10-08 11:05:23,333   INFO  [Iv2ExecutionSite: 0:0] HOST: Loading native VoltDB code (voltdb-3.6). A confirmation message will follow if the loading is successful.
+2013-10-08 11:05:23,337   INFO  [Iv2ExecutionSite: 0:0] HOST: Successfully loaded native VoltDB library voltdb-3.6.
+2013-10-08 11:05:23,567   INFO  [LeaderCache] TM: SP 0:0 for partition 0 found (including self) 1 surviving replicas to repair.  Survivors: 0:0
+2013-10-08 11:05:23,567   INFO  [LeaderCache] TM: SP 0:0 for partition 0 finished leader promotion. Took 24 ms.
+2013-10-08 11:05:23,662   INFO  [LeaderCache] TM: SP 0:1 for partition 2 found (including self) 1 surviving replicas to repair.  Survivors: 0:1
+2013-10-08 11:05:23,663   INFO  [LeaderCache] TM: SP 0:1 for partition 2 finished leader promotion. Took 13 ms.
+2013-10-08 11:05:23,942   INFO  [main] HOST: Database start action is Create.
+2013-10-08 11:05:23,942   INFO  [main] HOST: Listening for native wire protocol clients on port 21212.
+2013-10-08 11:05:23,943   INFO  [main] HOST: Listening for admin wire protocol clients on port 21211.
+2013-10-08 11:05:23,943   INFO  [main] HOST: Local machine HTTP monitoring is disabled.
+2013-10-08 11:05:23,943   INFO  [main] HOST: Json API disabled.
+2013-10-08 11:05:23,943   INFO  [main] HOST: Available JVM arguments: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+UseCondCardMark -XX:+UseTLAB -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseParNewGC -Xmx1024m -Djava.awt.headless=true -Dsun.net.inetaddr.ttl=300 -Dsun.net.inetaddr.negative.ttl=3600 -Dlog4j.configuration=file:///home/yabuta/voltdb/voltdb/log4j.xml -Djava.library.path=/home/yabuta/voltdb/voltdb
+2013-10-08 11:05:23,943   INFO  [main] HOST: JVM class path: ./:/home/yabuta/voltdb/voltdb/voltdbclient-3.6.jar:/home/yabuta/voltdb/voltdb/voltdb-3.6.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/guava-12.0.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/tomcat-jdbc.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jsch-0.1.50.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/tomcat-juli.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/super-csv-2.1.0.jar:/home/yabuta/voltdb/voltdb/voltdb-3.6.jar:/home/yabuta/voltdb/lib/commons-cli-1.2.jar:/home/yabuta/voltdb/lib/commons-lang3-3.0.jar:/home/yabuta/voltdb/lib/guava-12.0.jar:/home/yabuta/voltdb/lib/jetty-continuation-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-http-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-io-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-server-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jetty-util-7.6.1.v20120215.jar:/home/yabuta/voltdb/lib/jline-2.10.jar:/home/yabuta/voltdb/lib/jna.jar:/home/yabuta/voltdb/lib/jsch-0.1.50.jar:/home/yabuta/voltdb/lib/log4j-1.2.16.jar:/home/yabuta/voltdb/lib/protobuf-java-2.4.1.jar:/home/yabuta/voltdb/lib/servlet-api-2.5.jar:/home/yabuta/voltdb/lib/slf4j-api-1.6.2.jar:/home/yabuta/voltdb/lib/slf4j-nop-1.6.2.jar:/home/yabuta/voltdb/lib/snappy-java-1.0.5-M3.jar:/home/yabuta/voltdb/lib/super-csv-2.1.0.jar:/home/yabuta/voltdb/lib/tomcat-jdbc.jar:/home/yabuta/voltdb/lib/tomcat-juli.jar:/home/yabuta/voltdb/lib/zmq-2.1.11.jar
+2013-10-08 11:05:23,943   INFO  [main] HOST: Maximum usable Java heap set to 990 mb.
+2013-10-08 11:05:23,943   INFO  [main] HOST: Cluster has 2 hosts with leader hostname: "db1.ertl.jp". 2 sites per host. K = 0.
+2013-10-08 11:05:23,943   INFO  [main] HOST: The entire cluster has 1 copy of each of the 4 logical partitions.
+2013-10-08 11:05:23,944   INFO  [main] HOST: Detection of network partitions in the cluster is enabled.
+2013-10-08 11:05:23,944   INFO  [main] HOST: Client authentication is not enabled. Anonymous clients accepted.
+2013-10-08 11:05:23,944   INFO  [main] HOST: No schedule set for automated snapshots.
+2013-10-08 11:05:23,944   INFO  [main] HOST: Using "voltdbroot" for voltdbroot directory.
+2013-10-08 11:05:23,944   INFO  [main] HOST: CPU INFO:         4 Cores, 2 Sockets, 4 Hardware Threads
+2013-10-08 11:05:23,944   INFO  [main] HOST: CPU DESC:         Intel(R) Xeon(R) CPU           X5272  @ 3.40GHz 6144 KB cache
+2013-10-08 11:05:23,944   INFO  [main] HOST: HOST MEMORY (MB): 16048
+2013-10-08 11:05:23,944   INFO  [main] HOST: OS PROFILE:       Linux 3.8.9-200.fc18.x86_64 amd64 ja_JP
+2013-10-08 11:05:23,944   INFO  [main] HOST: JAVA VERSION:     1.7.0_19
+2013-10-08 11:05:23,944   INFO  [main] HOST: JAVA RUNTIME:     OpenJDK Runtime Environment (1.7.0_19-mockbuild_2013_04_19_20_08-b00)
+2013-10-08 11:05:23,944   INFO  [main] HOST: JAVA VM:          OpenJDK 64-Bit Server VM (23.7-b01, mixed mode)
+2013-10-08 11:05:23,975   INFO  [main] HOST: About to list cluster interfaces for all nodes with format [ip1 ip2 ... ipN] client-port:admin-port:http-port
+2013-10-08 11:05:23,975   INFO  [main] HOST:   Host id: 1 with interfaces: 133.6.204.152 21212,21211,-1 [PEER]
+2013-10-08 11:05:23,975   INFO  [main] HOST:   Host id: 0 with interfaces: 133.6.204.151 21212,21211,-1 [SELF]
+2013-10-08 11:05:23,975   WARN  [main] HOST: Running without redundancy (k=0) is not recommended for production use.
+2013-10-08 11:05:24,004   INFO  [Thread-7] HOST: Logging config info
+2013-10-08 11:05:24,518   INFO  [Thread-8] CONSOLE: Server completed initialization.
+2013-10-08 11:06:42,468   INFO  [Iv2ExecutionSite: 0:0] EXPORT: Truncating export data after txnId 3619632667770879
+2013-10-08 11:08:58,647   INFO  [Iv2ExecutionSite: 0:0] HOST: Server is entering admin mode and pausing.
+2013-10-08 11:09:03,977   INFO  [ZooKeeperServer] ZK-SERVER: Processed session termination for sessionid: 0x15328c173c000000

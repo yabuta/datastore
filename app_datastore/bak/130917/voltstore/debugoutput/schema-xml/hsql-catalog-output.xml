@@ -1,0 +1,41 @@
+ELEMENT: databaseschema
+[
+   ELEMENT: table
+    name = ANDROID_DATA_STORE
+   [
+      ELEMENT: columns
+      [
+         ELEMENT: column
+          name = TM
+          nullable = true
+          size = 8
+          valuetype = TIMESTAMP
+         [
+         ELEMENT: column
+          name = XLOCATION
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = YLOCATION
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+         ELEMENT: column
+          name = VELOCITY
+          nullable = true
+          size = 8
+          valuetype = FLOAT
+         [
+      ELEMENT: indexes
+      [
+         ELEMENT: index
+          columns = 
+          name = SYS_IDX_10017
+          unique = true
+         [
+      ELEMENT: constraints
+      [
+

@@ -1,0 +1,7 @@
+htpy.py
+
+httpクライアントbyPython
+
+postgresqlにデータを送っていくプログラム。一秒に一回tm、speed、batteryを送る。speedとbatteryは適当に変化させる
+
+タコメータのテスト用に作成。レスポンスはあまり速くない

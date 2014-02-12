@@ -1,0 +1,3 @@
+INSERT into "PRIUS_DATA_STORE"
+ MATERIALIZE TUPLE from parameters and/or literals
+

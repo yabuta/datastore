@@ -1,0 +1,8 @@
+zmpのログファイルからヘッダファイルを作成する
+
+実行方法：
+./getAngle.py
+
+
+ファイルの行削除方法
+sed -e "0,1000d" angle_turn_left.h
